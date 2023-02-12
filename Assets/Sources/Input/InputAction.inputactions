@@ -1,0 +1,65 @@
+{
+    "name": "InputAction",
+    "maps": [
+        {
+            "name": "Touch",
+            "id": "b0607366-f51a-4607-9e7a-3b42487aa796",
+            "actions": [
+                {
+                    "name": "Tracktion",
+                    "type": "PassThrough",
+                    "id": "8b2646b2-0efa-46e7-9e95-7809948e956b",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "TracktionDeltaX",
+                    "type": "PassThrough",
+                    "id": "79dbea36-b5d2-4828-958b-c249fdc0bf1c",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "65d63a36-8b31-4b67-b319-30e9d41044c6",
+                    "path": "<Mouse>/position",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Tracktion",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "ac79e64d-1c59-4e94-b511-ec99aa815b4f",
+                    "path": "<Touchscreen>/position",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Tracktion",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "7784ccf9-c827-4ce3-83e0-056445b52984",
+                    "path": "<Mouse>/delta/x",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "TracktionDeltaX",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}

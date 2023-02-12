@@ -1,0 +1,1463 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <LangVersion>9.0</LangVersion>
+    <_TargetFrameworkDirectories>non_empty_path_generated_by_unity.rider.package</_TargetFrameworkDirectories>
+    <_FullFrameworkReferenceAssemblyPaths>non_empty_path_generated_by_unity.rider.package</_FullFrameworkReferenceAssemblyPaths>
+    <DisableHandlePackageFileConflicts>true</DisableHandlePackageFileConflicts>
+  </PropertyGroup>
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <RootNamespace></RootNamespace>
+    <ProjectGuid>{2f6f8d7c-e968-1f61-b955-5e4fb7318030}</ProjectGuid>
+    <ProjectTypeGuids>{E097FAD1-6243-4DAD-9C02-E9B9EFC3FFC1};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <BaseDirectory>.</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\Bin\Debug\Assembly-CSharp\</OutputPath>
+    <DefineConstants>UNITY_2021_3_16;UNITY_2021_3;UNITY_2021;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_4_OR_NEWER;UNITY_2018_1_OR_NEWER;UNITY_2018_2_OR_NEWER;UNITY_2018_3_OR_NEWER;UNITY_2018_4_OR_NEWER;UNITY_2019_1_OR_NEWER;UNITY_2019_2_OR_NEWER;UNITY_2019_3_OR_NEWER;UNITY_2019_4_OR_NEWER;UNITY_2020_1_OR_NEWER;UNITY_2020_2_OR_NEWER;UNITY_2020_3_OR_NEWER;UNITY_2021_1_OR_NEWER;UNITY_2021_2_OR_NEWER;UNITY_2021_3_OR_NEWER;UNITY_INCLUDE_TESTS;ENABLE_AR;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_EVENT_QUEUE;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_TEXTURE_STREAMING;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_UNITYWEBREQUEST;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_NATIVE_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_MANAGED_JOBS;ENABLE_MANAGED_TRANSFORM_JOBS;ENABLE_MANAGED_ANIMATION_JOBS;ENABLE_MANAGED_AUDIO_JOBS;ENABLE_RUNTIME_PERMISSIONS;ENABLE_ENGINE_CODE_STRIPPING;ENABLE_ONSCREEN_KEYBOARD;ENABLE_MANAGED_UNITYTLS;INCLUDE_DYNAMIC_GI;ENABLE_SCRIPTING_GC_WBARRIERS;PLATFORM_SUPPORTS_MONO;ENABLE_VIDEO;ENABLE_ACCELERATOR_CLIENT_DEBUGGING;PLATFORM_ANDROID;TEXTCORE_1_0_OR_NEWER;UNITY_ANDROID;UNITY_ANDROID_API;ENABLE_EGL;ENABLE_NETWORK;ENABLE_RUNTIME_GI;ENABLE_CRUNCH_TEXTURE_COMPRESSION;UNITY_CAN_SHOW_SPLASH_SCREEN;UNITY_HAS_GOOGLEVR;UNITY_HAS_TANGO;ENABLE_SPATIALTRACKING;ENABLE_ETC_COMPRESSION;PLATFORM_EXTENDS_VULKAN_DEVICE;PLATFORM_HAS_MULTIPLE_SWAPCHAINS;UNITY_ANDROID_SUPPORTS_SHADOWFILES;PLATFORM_UPDATES_TIME_OUTSIDE_OF_PLAYER_LOOP;ENABLE_UNITYADS_RUNTIME;UNITY_UNITYADS_API;ENABLE_MONO;NET_STANDARD_2_0;NET_STANDARD;NET_STANDARD_2_1;NETSTANDARD;NETSTANDARD2_1;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_UNITY_COLLECTIONS_CHECKS;ENABLE_BURST_AOT;UNITY_TEAM_LICENSE;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_DIRECTOR;ENABLE_LOCALIZATION;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_TILEMAP;ENABLE_TIMELINE;ENABLE_INPUT_SYSTEM;ENABLE_LEGACY_INPUT_MANAGER;TEXTCORE_FONT_ENGINE_1_5_OR_NEWER;CSHARP_7_OR_LATER;CSHARP_7_3_OR_NEWER</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169,0649</NoWarn>
+    <AllowUnsafeBlocks>False</AllowUnsafeBlocks>
+    <TreatWarningsAsErrors>False</TreatWarningsAsErrors>
+  </PropertyGroup>
+  <PropertyGroup>
+    <NoConfig>true</NoConfig>
+    <NoStdLib>true</NoStdLib>
+    <AddAdditionalExplicitAssemblyReferences>false</AddAdditionalExplicitAssemblyReferences>
+    <ImplicitlyExpandNETStandardFacades>false</ImplicitlyExpandNETStandardFacades>
+    <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
+  </PropertyGroup>
+  <ItemGroup>
+     <Compile Include="Assets\Pakages\Epic Toon FX\Scripts\ETFXPitchRandomizer.cs" />
+     <Compile Include="Assets\Pakages\Epic Toon FX\Demo\Scripts\ETFXFireProjectile.cs" />
+     <Compile Include="Assets\Sources\CompositeRoot\UnitsCompositeRoot.cs" />
+     <Compile Include="Assets\Sources\View\IFactory.cs" />
+     <Compile Include="Assets\Pakages\Epic Toon FX\Demo\Scripts\ETFXButtonScript.cs" />
+     <Compile Include="Assets\Pakages\Epic Toon FX\Scripts\ETFXLightFade.cs" />
+     <Compile Include="Assets\Sources\Model\Barbell\BarbellDisk.cs" />
+     <Compile Include="Assets\Sources\View\UnitFactory.cs" />
+     <Compile Include="Assets\Sources\CompositeRoot\PlayerCompositeRoot.cs" />
+     <Compile Include="Assets\Sources\View\ObstacleTransformableView.cs" />
+     <Compile Include="Assets\Pakages\Epic Toon FX\Demo\Scripts\VFX Library\ParticleEffectsLibrary.cs" />
+     <Compile Include="Assets\Pakages\Epic Toon FX\Demo\Scripts\ETFXMouseOrbit.cs" />
+     <Compile Include="Assets\Sources\View\TransformableView.cs" />
+     <Compile Include="Assets\Pakages\Epic Toon FX\Demo\Scripts\ETFXTarget.cs" />
+     <Compile Include="Assets\Pakages\Epic Toon FX\Scripts\ETFXRotation.cs" />
+     <Compile Include="Assets\Sources\Model\Player.cs" />
+     <Compile Include="Assets\Sources\View\BarbellDiskPhysicsEventBroadcaster.cs" />
+     <Compile Include="Assets\Pakages\Epic Toon FX\Demo\Scripts\ETFXSceneManager.cs" />
+     <Compile Include="Assets\Sources\View\PlayerTransformableView.cs" />
+     <Compile Include="Assets\Sources\Model\Unit.cs" />
+     <Compile Include="Assets\Pakages\Epic Toon FX\Demo\Scripts\VFX Library\PEButtonScript.cs" />
+     <Compile Include="Assets\Sources\Model\Transformable.cs" />
+     <Compile Include="Assets\Sources\Barbell.cs" />
+     <Compile Include="Assets\Pakages\Epic Toon FX\Demo\Scripts\ETFXLoopScript.cs" />
+     <Compile Include="Assets\Sources\Input\InputAction.cs" />
+     <Compile Include="Assets\Sources\Level.cs" />
+     <Compile Include="Assets\Sources\CompositeRoot\CompositeRoot.cs" />
+     <Compile Include="Assets\Sources\View\BarbellDiskTransformableView.cs" />
+     <Compile Include="Assets\Pakages\Epic Toon FX\Demo\Scripts\VFX Library\UICanvasManager.cs" />
+     <Compile Include="Assets\Sources\Input\PlayerInputRouter.cs" />
+     <Compile Include="Assets\Sources\CompositeRoot\CompositionOrder.cs" />
+     <Compile Include="Assets\Sources\SpawnPoint.cs" />
+     <Compile Include="Assets\Pakages\Epic Toon FX\Demo\Scripts\ETFXProjectileScript.cs" />
+     <Compile Include="Assets\Sources\Model\PlayerMovement.cs" />
+     <Folder Include="Assets" />
+     <Folder Include="Assets\Pakages\Epic Toon FX\Prefabs\Environment\Water\Other" />
+     <Folder Include="Assets\Pakages\Epic Toon FX\Sound" />
+     <None Include="Library\PackageCache\com.unity.collab-proxy@1.17.7\Lib\Editor\PlasticSCM\localization\mergetool.ja.txt" />
+     <Folder Include="Assets\Pakages\Epic Toon FX\Prefabs\Interactive\Portals\SimplePortal" />
+     <None Include="Library\PackageCache\com.unity.collab-proxy@1.17.7\Lib\Editor\PlasticSCM\localization\images.zh-Hans.txt" />
+     <Folder Include="Assets\Pakages\Epic Toon FX\Prefabs\Interactive\Loot\GlowOrb" />
+     <Folder Include="Assets\Pakages\Epic Toon FX\Prefabs\Interactive\Sparkle\SparkleArea" />
+     <None Include="Library\PackageCache\com.unity.settings-manager@1.0.3\package.json" />
+     <None Include="Library\PackageCache\com.unity.modules.subsystems@1.0.0\package.json" />
+     <None Include="Library\PackageCache\com.unity.collab-proxy@1.17.7\Lib\Editor\PlasticSCM\localization\guihelp.zh-Hant.txt" />
+     <Folder Include="Assets\Pakages\GUI Mobile Hyper-Casual\Scenes" />
+     <Folder Include="Assets\Pakages\Epic Toon FX\Prefabs\Environment\Lightning\Sharp" />
+     <Folder Include="Assets\Pakages\Epic Toon FX\Prefabs\Environment\Stars\StarFogFlow" />
+     <Folder Include="Assets\Pakages\Epic Toon FX\Prefabs\Combat\Magic\Aura" />
+     <Folder Include="Assets\Pakages\Epic Toon FX\Prefabs\Environment\Water\Bubbles" />
+     <None Include="Library\PackageCache\com.unity.modules.jsonserialize@1.0.0\package.json" />
+     <Folder Include="Assets\Pakages\Epic Toon FX\Prefabs\Combat\Sword\Slash\SwordSlashThin" />
+     <Folder Include="Assets\Pakages\Epic Toon FX\Prefabs\Interactive\Hearts" />
+     <Folder Include="Assets\Pakages\Epic Toon FX\Prefabs\Interactive\Loot\ChestAppear" />
+     <Folder Include="Library\PackageCache\com.unity.test-framework@1.1.31" />
+     <None Include="Assets\Pakages\Epic Toon FX\Prefabs\Environment\Environment FX.txt" />
+     <Folder Include="Assets\Pakages\Epic Toon FX\Prefabs\Environment\Fire\Cartoon\Torch Intense" />
+     <Folder Include="Assets\Pakages\Epic Toon FX\Demo\Scripts\VFX Library" />
+     <None Include="Library\PackageCache\com.unity.modules.screencapture@1.0.0\package.json" />
+     <Folder Include="Assets\Pakages\Epic Toon FX\Materials\Misc\Skulls" />
+     <None Include="Assets\Pakages\BizulkaProduction\Stickman\README.txt" />
+     <None Include="Library\PackageCache\com.unity.modules.cloth@1.0.0\package.json" />
+     <Folder Include="Assets\Pakages\Epic Toon FX\Prefabs\Interactive\Loot" />
+     <Folder Include="Assets\Pakages\Epic Toon FX\Prefabs\Environment\Water\Flowing\Sharp" />
+     <Folder Include="Assets\Pakages\Epic Toon FX\Prefabs\Combat\Muzzleflash\FrostMuzzle" />
+     <Folder Include="Assets\Pakages\Epic Toon FX\Prefabs\Combat\Flamethrower" />
+     <Folder Include="Assets\Pakages\GUI Mobile Hyper-Casual\Sprites\Items PSD + PNG\Gift" />
+     <Folder Include="Library\PackageCache\com.unity.modules.imgui@1.0.0" />
+     <None Include="Library\PackageCache\com.unity.collab-proxy@1.17.7\Lib\Editor\PlasticSCM\localization\plastic-gui.zh-Hant.txt" />
+     <Folder Include="Assets\Pakages\Epic Toon FX\Prefabs\Interactive\Sparkle" />
+     <Folder Include="Assets\Pakages\Epic Toon FX\Demo\Scripts" />
+     <None Include="Library\PackageCache\com.unity.modules.unitywebrequesttexture@1.0.0\package.json" />
+     <None Include="Library\PackageCache\com.unity.collab-proxy@1.17.7\Lib\Editor\PlasticSCM\localization\images.es.txt" />
+     <None Include="Library\PackageCache\com.unity.inputsystem@1.4.4\package.json" />
+     <None Include="Library\PackageCache\com.unity.modules.ai@1.0.0\package.json" />
+     <Folder Include="Assets\Pakages\Epic Toon FX\Prefabs\Combat\Missiles\Fireball" />
+     <Folder Include="Assets\Pakages\GUI Mobile Hyper-Casual\Sprites\Items PSD + PNG\Sherif Stars" />
+     <None Include="Library\PackageCache\com.unity.collab-proxy@1.17.7\Lib\Editor\PlasticSCM\localization\differences.es.txt" />
+     <None Include="Library\PackageCache\com.unity.collab-proxy@1.17.7\Lib\Editor\PlasticSCM\localization\commontypes.zh-Hans.txt" />
+     <Folder Include="Assets\Pakages\Epic Toon FX\Prefabs\Combat\Muzzleflash\LightningMuzzle" />
+     <Folder Include="Library\PackageCache\com.unity.modules.animation@1.0.0" />
+     <None Include="Library\PackageCache\com.unity.inputsystem@1.4.4\ValidationConfig.json" />
+     <Folder Include="Assets\Pakages\Epic Toon FX\Prefabs\Environment\Smoke\White" />
+     <None Include="Assets\Pakages\Epic Toon FX\Prefabs\Combat\Combat FX.txt" />
+     <Folder Include="Assets\Pakages\Epic Toon FX\Demo\Missile Prefabs\Frost" />
+     <None Include="Library\PackageCache\com.unity.ugui@1.0.0\package.json" />
+     <Folder Include="Assets\Pakages\BizulkaProduction\Stickman\Prefabs" />
+     <Folder Include="Assets\Pakages\Epic Toon FX\Prefabs\Interactive\Portals" />
+     <Folder Include="Assets\Pakages\Epic Toon FX\Prefabs\Combat\Missiles\Bullet" />
+     <Folder Include="Library\PackageCache\com.unity.modules.xr@1.0.0" />
+     <None Include="Library\PackageCache\com.unity.collab-proxy@1.17.7\Lib\Editor\PlasticSCM\localization\mergetool.es.txt" />
+     <Folder Include="Library\PackageCache\com.unity.testtools.codecoverage@1.2.2\lib\ReportGenerator" />
+     <Folder Include="Assets\Pakages\GUI Mobile Hyper-Casual\Sprites\Items PSD + PNG\Ball" />
+     <Folder Include="Assets\Pakages\GUI Mobile Hyper-Casual\Sprites" />
+     <None Include="Library\PackageCache\com.unity.ext.nunit@1.0.6\package.json" />
+     <None Include="Library\PackageCache\com.unity.collab-proxy@1.17.7\Lib\Editor\PlasticSCM\localization\basecommands.es.txt" />
+     <None Include="Library\PackageCache\com.unity.collab-proxy@1.17.7\Lib\Editor\PlasticSCM\localization\cm.es.txt" />
+     <None Include="Library\PackageCache\com.unity.collab-proxy@1.17.7\Lib\Editor\PlasticSCM\localization\basecommands.ko.txt" />
+     <Folder Include="Assets\Pakages\GUI Mobile Hyper-Casual\Sprites\Items PSD + PNG" />
+     <Folder Include="Assets\Pakages\Epic Toon FX\Prefabs\Combat\Flamethrower\Cartoon" />
+     <Folder Include="Assets\Pakages\Epic Toon FX\Prefabs\Combat\Explosions\BulletExplosion" />
+     <Folder Include="Library\PackageCache\com.unity.ide.rider@3.0.16\Rider" />
+     <None Include="Library\PackageCache\com.unity.collab-proxy@1.17.7\Lib\Editor\PlasticSCM\localization\semantic.zh-Hant.txt" />
+     <Folder Include="Assets\Pakages\Epic Toon FX\Prefabs\Combat\Explosions\- Misc" />
+     <Folder Include="Assets\Pakages\Epic Toon FX\Prefabs\Interactive\Emojis" />
+     <Folder Include="Assets\Pakages\Epic Toon FX\Prefabs\Combat\Magic\Nova" />
+     <Folder Include="Assets\Pakages\Epic Toon FX\Demo\Missile Prefabs\EnergyNovaSmall" />
+     <Folder Include="Assets\Pakages\Epic Toon FX\Prefabs\Combat\Magic\Aura Soft" />
+     <Folder Include="Assets\Pakages\Epic Toon FX\Prefabs\Combat\Explosions\SpikyExplosion" />
+     <Folder Include="Assets\Pakages\Epic Toon FX\Prefabs\Interactive" />
+     <None Include="Library\PackageCache\com.unity.collab-proxy@1.17.7\Lib\Editor\PlasticSCM\localization\clientcommon.es.txt" />
+     <Folder Include="Library\PackageCache\com.unity.textmeshpro@3.0.6\Editor Resources" />
+     <Folder Include="Assets\Pakages\Epic Toon FX\Materials\Misc\Liquid" />
+     <Folder Include="Assets\Pakages\Epic Toon FX\Prefabs\Environment\Fog" />
+     <Folder Include="Assets\Pakages\Epic Toon FX\Prefabs\Environment\Weather\Wind &amp; Leaves" />
+     <None Include="Library\PackageCache\com.unity.modules.assetbundle@1.0.0\package.json" />
+     <Folder Include="Assets\Pakages\Epic Toon FX\Prefabs\Combat" />
+     <Folder Include="Library\PackageCache\com.unity.inputsystem@1.4.4\Tests" />
+     <Folder Include="Assets\Pakages\Epic Toon FX\Prefabs\Combat\Nova\Fire" />
+     <Folder Include="Assets\Pakages\GUI Mobile Hyper-Casual\Sprites\Items PSD + PNG\Target" />
+     <Folder Include="Assets\Pakages\Epic Toon FX\Prefabs\Combat\Nova" />
+     <Folder Include="Assets\Pakages\Epic Toon FX\Prefabs\Environment\Weather\Rain" />
+     <Folder Include="Assets\Pakages\Epic Toon FX\Prefabs\Combat\Muzzleflash\SparkleMuzzle" />
+     <Folder Include="Assets\Pakages\Epic Toon FX\Prefabs\Interactive\Zone" />
+     <Folder Include="Assets\Pakages\Epic Toon FX\Prefabs\Combat\Explosions\MegaExplosion" />
+     <None Include="Library\PackageCache\com.unity.textmeshpro@3.0.6\package.json" />
+     <Folder Include="Assets\Pakages\Epic Toon FX\Prefabs\Combat\Sword\Spin" />
+     <Folder Include="Assets\Pakages\Epic Toon FX\Prefabs\Interactive\Powerups\PowerOrbElemental" />
+     <None Include="Library\PackageCache\com.unity.collab-proxy@1.17.7\Lib\Editor\PlasticSCM\localization\guihelp.ja.txt" />
+     <None Include="Library\PackageCache\com.unity.modules.imgui@1.0.0\package.json" />
+     <Folder Include="Assets\Pakages\BizulkaProduction\Stickman" />
+     <Folder Include="Library\PackageCache\com.unity.visualscripting@1.7.8\Graphics" />
+     <Folder Include="Assets\Pakages\Epic Toon FX\Prefabs\Combat\Missiles\Soul" />
+     <None Include="Library\PackageCache\com.unity.collab-proxy@1.17.7\ValidationExceptions.json" />
+     <None Include="Library\PackageCache\com.unity.modules.tilemap@1.0.0\package.json" />
+     <Folder Include="Assets\Pakages\GUI Mobile Hyper-Casual\Sprites\Items PSD + PNG\Store" />
+     <Folder Include="Assets\Pakages\Epic Toon FX\Prefabs\Combat\Sword" />
+     <Folder Include="Assets\Pakages\Epic Toon FX\Prefabs\Interactive\Loot\ItemSkewedGlow" />
+     <Folder Include="Assets\Pakages\Epic Toon FX\Prefabs\Combat\Muzzleflash\SoulMuzzle" />
+     <Folder Include="Assets\Pakages\Epic Toon FX\Demo\Missile Prefabs\Mystic" />
+     <Folder Include="Assets\Pakages\Epic Toon FX\Prefabs\Combat\Magic\Shield" />
+     <Folder Include="Assets\Pakages\GUI Mobile Hyper-Casual\Sprites\Items PSD + PNG\Hand" />
+     <None Include="Library\PackageCache\com.unity.collab-proxy@1.17.7\Lib\Editor\PlasticSCM\localization\xdiff.ja.txt" />
+     <None Include="Library\PackageCache\com.unity.collab-proxy@1.17.7\Lib\Editor\PlasticSCM\localization\configurehelper.es.txt" />
+     <Folder Include="Library\PackageCache\com.unity.modules.assetbundle@1.0.0" />
+     <Folder Include="Assets\Pakages\GUI Mobile Hyper-Casual\Sprites\Items PSD + PNG\Gems\Gem 2 Pack" />
+     <Folder Include="Assets\Pakages\Epic Toon FX\Prefabs\Combat\Sword\Slash" />
+     <Folder Include="Assets\Pakages\GUI Mobile Hyper-Casual\Sprites\Items PSD + PNG\Podium" />
+     <Folder Include="Assets\Pakages\Epic Toon FX\Prefabs\Misc" />
+     <Folder Include="Assets\Pakages\Epic Toon FX\Prefabs\Combat\Death\Skulls" />
+     <Folder Include="Assets\Pakages\GUI Mobile Hyper-Casual\Sprites\Items PSD + PNG\Bow" />
+     <Folder Include="Assets\Pakages\Epic Toon FX\Prefabs\Combat\Magic\Field" />
+     <Folder Include="Assets\Pakages\Epic Toon FX\Prefabs\Interactive\Powerups" />
+     <Folder Include="Assets\Pakages\Epic Toon FX\Prefabs\Interactive\Zone\MagicZone" />
+     <Folder Include="Assets\Pakages\Epic Toon FX\Prefabs\Combat\Explosions\ShadowExplosion" />
+     <Folder Include="Assets\Pakages\Epic Toon FX\Prefabs\Combat\Explosions\LightningExplosion" />
+     <Folder Include="Assets\Pakages\Epic Toon FX\Demo\Materials" />
+     <Folder Include="Assets\Pakages\Epic Toon FX\Materials\Basics" />
+     <None Include="Library\PackageCache\com.unity.timeline@1.6.4\package.json" />
+     <Folder Include="Assets\Pakages\Epic Toon FX\Prefabs\Interactive\Powerups\PowerOrbSmall" />
+     <Folder Include="Library\PackageCache\com.unity.ext.nunit@1.0.6\net35\unity-custom" />
+     <Folder Include="Assets\Pakages\Epic Toon FX\Prefabs\Combat\Sword\Hit\SwordHitMini" />
+     <None Include="Library\PackageCache\com.unity.collab-proxy@1.17.7\Lib\Editor\PlasticSCM\localization\configurehelper.en.txt" />
+     <Folder Include="Assets\Pakages\Epic Toon FX\Prefabs\Environment\Confetti\Shower" />
+     <Folder Include="Assets\Pakages\Epic Toon FX\Prefabs\Combat\Missiles\Sparkle" />
+     <Folder Include="Assets\Pakages\GUI Mobile Hyper-Casual\Sprites\Items PSD + PNG\Diplome" />
+     <Folder Include="Assets\Pakages\GUI Mobile Hyper-Casual\Sprites\Items PSD + PNG\Key" />
+     <Folder Include="Assets\Pakages\Epic Toon FX\Prefabs\Environment\Confetti\Blast" />
+     <Folder Include="Assets\Pakages\Epic Toon FX\Materials\Misc\Emojis" />
+     <Folder Include="Assets\Pakages\Epic Toon FX\Prefabs\Environment\Firework" />
+     <Folder Include="Library\PackageCache\com.unity.visualscripting@1.7.8" />
+     <Folder Include="Assets\Pakages\GUI Mobile Hyper-Casual\Sprites\Sprites by Menu\Home-assets" />
+     <Folder Include="Assets\Pakages\Epic Toon FX\Prefabs\Combat\Missiles\NovaSmall" />
+     <None Include="Library\PackageCache\com.unity.ide.visualstudio@2.0.16\ValidationConfig.json" />
+     <Folder Include="Assets\Pakages\Epic Toon FX\Prefabs\Combat\Brawling\Cartoony" />
+     <Folder Include="Library\PackageCache\com.unity.ext.nunit@1.0.6\net35" />
+     <None Include="Library\PackageCache\com.unity.collab-proxy@1.17.7\Lib\Editor\PlasticSCM\localization\basecommands.zh-Hant.txt" />
+     <Folder Include="Assets\Pakages\Epic Toon FX\Prefabs\Combat\Missiles\NovaMissile" />
+     <Folder Include="Assets\Pakages\Epic Toon FX\Prefabs\Combat\Explosions\GlitterExplosion" />
+     <Folder Include="Assets\Pakages\Epic Toon FX\Materials" />
+     <Folder Include="Assets\Pakages\Epic Toon FX\Demo\Missile Prefabs\EnergyNova" />
+     <Folder Include="Assets\Pakages\Epic Toon FX\Prefabs\Combat\Muzzleflash\BulletFatMuzzle" />
+     <None Include="Library\PackageCache\com.unity.collab-proxy@1.17.7\Lib\Editor\PlasticSCM\localization\cm-help.es.txt" />
+     <None Include="Library\PackageCache\com.unity.modules.terrainphysics@1.0.0\package.json" />
+     <Folder Include="Library\PackageCache\com.unity.collab-proxy@1.17.7\Lib\Editor\PlasticSCM" />
+     <Folder Include="Library\PackageCache\com.unity.performance.profile-analyzer@1.1.1" />
+     <Folder Include="Assets\Pakages\GUI Mobile Hyper-Casual\Sprites\Items PSD + PNG\Chest" />
+     <Folder Include="Assets\Pakages\Epic Toon FX\Prefabs\Combat\BombFuse" />
+     <None Include="Library\PackageCache\com.unity.collab-proxy@1.17.7\Lib\Editor\PlasticSCM\localization\differences.zh-Hant.txt" />
+     <Folder Include="Library\PackageCache\com.unity.nuget.newtonsoft-json@3.0.2\Runtime\AOT" />
+     <Folder Include="Assets\Pakages\Epic Toon FX\Prefabs\Combat\Magic\Enchant" />
+     <Folder Include="Assets\Pakages\Epic Toon FX\Demo\Missile Prefabs\Bullet" />
+     <Folder Include="Assets\Pakages\Epic Toon FX\Prefabs\Interactive\Flares\Sharp" />
+     <Folder Include="Assets\Pakages\Epic Toon FX\Prefabs\Environment\Underwater" />
+     <Folder Include="Assets\Pakages\Epic Toon FX\Materials\Misc\Emojis\Part 2" />
+     <Folder Include="Assets\Pakages\Epic Toon FX\Prefabs\Combat\Explosions\NukeConeExplosion" />
+     <Folder Include="Assets\Pakages\GUI Mobile Hyper-Casual\Sprites\Items PSD + PNG\Card" />
+     <Folder Include="Assets\Pakages\GUI Mobile Hyper-Casual\Sprites\Items PSD + PNG\Sword" />
+     <Folder Include="Assets\Sources" />
+     <Folder Include="Assets\Pakages\Epic Toon FX\Models" />
+     <Folder Include="Assets\Pakages\Epic Toon FX\Prefabs\Combat\Missiles\Laser" />
+     <Folder Include="Assets\Pakages\Epic Toon FX\Prefabs\Combat\Magic\Circle" />
+     <None Include="Library\PackageCache\com.unity.collab-proxy@1.17.7\Lib\Editor\PlasticSCM\localization\plastic-gui.ko.txt" />
+     <Folder Include="Assets\Pakages\Epic Toon FX\Demo\Missile Prefabs\Lightning" />
+     <Folder Include="Assets\Pakages\Epic Toon FX\Prefabs\Environment\Fire\Spiky\Additive" />
+     <None Include="Library\PackageCache\com.unity.collab-proxy@1.17.7\Lib\Editor\PlasticSCM\localization\basecommands.ja.txt" />
+     <Folder Include="Library\PackageCache\com.unity.modules.screencapture@1.0.0" />
+     <None Include="Library\PackageCache\com.unity.visualscripting@1.7.8\package.json" />
+     <None Include="Library\PackageCache\com.unity.editorcoroutines@1.0.0\package.json" />
+     <None Include="Library\PackageCache\com.unity.timeline@1.6.4\ValidationExceptions.json" />
+     <Folder Include="Assets\Pakages\Epic Toon FX\Prefabs\Combat\Magic\Buff" />
+     <Folder Include="Assets\Pakages\Epic Toon FX\Prefabs 2D\Blood\Green" />
+     <Folder Include="Assets\Pakages\Epic Toon FX\Prefabs\Interactive\Trails" />
+     <None Include="Library\PackageCache\com.unity.collab-proxy@1.17.7\package.json" />
+     <None Include="Library\PackageCache\com.unity.collab-proxy@1.17.7\Lib\Editor\PlasticSCM\localization\xdiff.zh-Hans.txt" />
+     <Folder Include="Assets\Pakages\Epic Toon FX\Prefabs\Combat\Muzzleflash\- Misc\GunFire" />
+     <Folder Include="Assets\Pakages\Epic Toon FX\Materials\Misc\Fire" />
+     <None Include="Library\PackageCache\com.unity.collab-proxy@1.17.7\Lib\Editor\PlasticSCM\localization\xdiff.ko.txt" />
+     <Folder Include="Assets\Pakages\Epic Toon FX\Prefabs\Combat\Missiles\Magic" />
+     <Folder Include="Library\PackageCache\com.unity.timeline@1.6.4" />
+     <None Include="Library\PackageCache\com.unity.collab-proxy@1.17.7\Lib\Editor\PlasticSCM\localization\clientcommon.ja.txt" />
+     <Folder Include="Assets\Pakages\Epic Toon FX\Materials\Misc\Bubbles" />
+     <Folder Include="Assets\Pakages\Epic Toon FX\Prefabs\Combat\Muzzleflash\RocketMuzzle" />
+     <Folder Include="Assets\Pakages\Epic Toon FX\Demo\Missile Prefabs\Gas" />
+     <Folder Include="Assets\Pakages\Epic Toon FX\Prefabs\Interactive\Portals\SoftPortal" />
+     <Folder Include="Assets\Pakages\Epic Toon FX\Demo\Missile Prefabs" />
+     <Folder Include="Assets\Pakages\Epic Toon FX\Prefabs\Combat\Muzzleflash\MagicSoftMuzzle" />
+     <Folder Include="Library\PackageCache\com.unity.modules.cloth@1.0.0" />
+     <Folder Include="Assets\Pakages\GUI Mobile Hyper-Casual\Sprites\Items PSD + PNG\Mail" />
+     <Folder Include="Assets\Pakages\Epic Toon FX\Prefabs\Interactive\Portals\SpinPortal" />
+     <Folder Include="Assets\Pakages\Epic Toon FX\Materials\Misc\Emojis\Part 1" />
+     <Folder Include="Assets\Pakages\Epic Toon FX\Demo\Missile Prefabs\Nuke" />
+     <None Include="Library\PackageCache\com.unity.collab-proxy@1.17.7\Lib\Editor\PlasticSCM\localization\basecommands.zh-Hans.txt" />
+     <Folder Include="Assets\Pakages\Epic Toon FX\Prefabs\Combat\Missiles\Mystic" />
+     <None Include="Library\PackageCache\com.unity.textmeshpro@3.0.6\PackageConversionData.json" />
+     <Folder Include="Assets\Pakages\GUI Mobile Hyper-Casual\Sprites\Items PSD + PNG\Diamonds" />
+     <None Include="Library\PackageCache\com.unity.modules.unitywebrequestassetbundle@1.0.0\package.json" />
+     <None Include="Library\PackageCache\com.unity.collab-proxy@1.17.7\Lib\Editor\PlasticSCM\localization\guihelp.en.txt" />
+     <Folder Include="Assets\Pakages\Epic Toon FX\Prefabs\Environment\Fire\Soft\SoftFireAB" />
+     <Folder Include="Assets\Pakages\Epic Toon FX\Prefabs\Combat\Nova\Frost" />
+     <Folder Include="Library\PackageCache\com.unity.feature.development@1.0.1" />
+     <Folder Include="Assets\Pakages\GUI Mobile Hyper-Casual\Sprites\Background" />
+     <Folder Include="Assets\Pakages\Epic Toon FX\Prefabs\Combat\Sword\Hit\SwordHitCritical" />
+     <Folder Include="Library\PackageCache\com.unity.ext.nunit@1.0.6" />
+     <Folder Include="Assets\Pakages\Epic Toon FX\Prefabs\Combat\Magic\Sphere" />
+     <Folder Include="Assets\Pakages\Epic Toon FX\Demo\Textures" />
+     <None Include="Library\PackageCache\com.unity.collab-proxy@1.17.7\Lib\Editor\PlasticSCM\localization\differences.ja.txt" />
+     <Folder Include="Assets\Pakages\GUI Mobile Hyper-Casual\Sprites\Sprites by Menu\In Game-assets" />
+     <Folder Include="Assets\Pakages\BizulkaProduction\Stickman\Scenes" />
+     <None Include="Library\PackageCache\com.unity.collab-proxy@1.17.7\Lib\Editor\PlasticSCM\localization\configurehelper.ja.txt" />
+     <Folder Include="Assets\Pakages\GUI Mobile Hyper-Casual\Sprites\Items PSD + PNG\Diamonds\Diamond 2" />
+     <Folder Include="Assets\Pakages\GUI Mobile Hyper-Casual\Sprites\Items PSD + PNG\Open Book" />
+     <Folder Include="Assets\Pakages\GUI Mobile Hyper-Casual\Sprites\Items PSD + PNG\Bag" />
+     <Folder Include="Assets\Pakages\GUI Mobile Hyper-Casual\Sprites\Sprites by Menu\Win-assets" />
+     <Folder Include="Assets\Pakages\GUI Mobile Hyper-Casual\Sprites\Items PSD + PNG\Coins" />
+     <None Include="Library\PackageCache\com.unity.collab-proxy@1.17.7\Lib\Editor\PlasticSCM\localization\semantic.en.txt" />
+     <Folder Include="Assets\Pakages\GUI Mobile Hyper-Casual\Sprites\Items PSD + PNG\Crown" />
+     <Folder Include="Assets\Pakages\Epic Toon FX\Prefabs\Interactive\Zone\SpinZone" />
+     <Folder Include="Assets\Pakages\Epic Toon FX\Prefabs" />
+     <None Include="Library\PackageCache\com.unity.ide.visualstudio@2.0.16\package.json" />
+     <None Include="Library\PackageCache\com.unity.collab-proxy@1.17.7\Lib\Editor\PlasticSCM\localization\workspaceserver.ko.txt" />
+     <Folder Include="Assets\Pakages\GUI Mobile Hyper-Casual" />
+     <Folder Include="Assets\Pakages\Epic Toon FX\Prefabs 2D\Water" />
+     <Folder Include="Assets\Pakages\Epic Toon FX\Prefabs\Combat\Explosions\NovaSmallExplosion" />
+     <Folder Include="Library\PackageCache\com.unity.modules.imageconversion@1.0.0" />
+     <Folder Include="Assets\Pakages\Epic Toon FX\Prefabs\Combat\Explosions\StormExplosion" />
+     <Folder Include="Library\PackageCache\com.unity.modules.terrainphysics@1.0.0" />
+     <None Include="Library\PackageCache\com.unity.collab-proxy@1.17.7\Lib\Editor\PlasticSCM\localization\plastic-gui.zh-Hans.txt" />
+     <None Include="Library\PackageCache\com.unity.modules.imageconversion@1.0.0\package.json" />
+     <Folder Include="Assets\Pakages\Epic Toon FX\Prefabs\Combat\Missiles\FatBullet" />
+     <Folder Include="Assets\Pakages\Epic Toon FX\Prefabs\Combat\Explosions\StarIntenseExplosion" />
+     <Folder Include="Library\PackageCache\com.unity.services.core@1.6.0\Editor" />
+     <Folder Include="Library\PackageCache\com.unity.modules.unitywebrequest@1.0.0" />
+     <Folder Include="Assets\Pakages\Epic Toon FX\Demo\Missile Prefabs\Shadow" />
+     <Folder Include="Assets\Sources\View" />
+     <Folder Include="Assets\Pakages\Epic Toon FX\Prefabs\Interactive\Feathers" />
+     <None Include="Library\PackageCache\com.unity.textmeshpro@3.0.6\ValidationExceptions.json" />
+     <Folder Include="Library\PackageCache\com.unity.modules.unitywebrequestassetbundle@1.0.0" />
+     <Folder Include="Assets\Pakages\Epic Toon FX\Prefabs 2D" />
+     <Folder Include="Assets\Pakages\GUI Mobile Hyper-Casual\Sprites\Sprites by Menu" />
+     <None Include="Library\PackageCache\com.unity.collab-proxy@1.17.7\Lib\Editor\PlasticSCM\localization\cm.en.txt" />
+     <Folder Include="Assets\Pakages\Epic Toon FX\Prefabs\Combat\Missiles\Rocket" />
+     <None Include="Library\PackageCache\com.unity.feature.development@1.0.1\package.json" />
+     <Folder Include="Assets\Pakages\Epic Toon FX\Prefabs\Interactive\Portals\VortexPortal" />
+     <Folder Include="Assets\Pakages\GUI Mobile Hyper-Casual\Sprites\Items PSD + PNG\Hourglass" />
+     <None Include="Library\PackageCache\com.unity.collab-proxy@1.17.7\Lib\Editor\PlasticSCM\localization\commontypes.en.txt" />
+     <Folder Include="Assets\Pakages\GUI Mobile Hyper-Casual\Sprites\Items PSD + PNG\Token" />
+     <Folder Include="Assets\Pakages\Epic Toon FX\Materials\Misc\Stars" />
+     <Folder Include="Assets\Pakages\Epic Toon FX\Materials\Misc\Text" />
+     <None Include="Library\PackageCache\com.unity.collab-proxy@1.17.7\Lib\Editor\PlasticSCM\localization\commontypes.es.txt" />
+     <None Include="Library\PackageCache\com.unity.collab-proxy@1.17.7\Lib\Editor\PlasticSCM\localization\images.zh-Hant.txt" />
+     <Folder Include="Assets\Pakages\Epic Toon FX\Prefabs\Combat\Explosions\RoundExplosion" />
+     <None Include="Library\PackageCache\com.unity.modules.unityanalytics@1.0.0\package.json" />
+     <Folder Include="Assets\Pakages\Epic Toon FX\Demo\Missile Prefabs\Grenade" />
+     <Folder Include="Assets\Pakages\Epic Toon FX\Materials\Misc\Sword" />
+     <Folder Include="Assets\Sources\CompositeRoot" />
+     <Folder Include="Library\PackageCache\com.unity.modules.subsystems@1.0.0" />
+     <Folder Include="Assets\Pakages\Epic Toon FX\Demo\Missile Prefabs\Soul" />
+     <None Include="Library\PackageCache\com.unity.ide.rider@3.0.16\package.json" />
+     <Folder Include="Assets\Pakages\Epic Toon FX\Prefabs\Combat\Explosions\SparkleExplosion" />
+     <None Include="Library\PackageCache\com.unity.collab-proxy@1.17.7\Lib\Editor\PlasticSCM\localization\i3.zh-Hans.txt" />
+     <Folder Include="Assets\Pakages\Epic Toon FX\Prefabs\Combat\Explosions" />
+     <Folder Include="Assets\Pakages\Epic Toon FX\Prefabs\Combat\Explosions\GrenadeExplosion" />
+     <Folder Include="Assets\Pakages\Epic Toon FX\Prefabs\Interactive\Stars" />
+     <Folder Include="Assets\Pakages\GUI Mobile Hyper-Casual\Sprites\Items PSD + PNG\Gems" />
+     <None Include="Library\PackageCache\com.unity.modules.video@1.0.0\package.json" />
+     <Folder Include="Assets\Pakages\GUI Mobile Hyper-Casual\Sprites\Emojis PNG" />
+     <Folder Include="Assets\Pakages\Epic Toon FX\Demo\Missile Prefabs\Liquid" />
+     <Folder Include="Assets\Models\Barbell" />
+     <Folder Include="Assets\Pakages\Epic Toon FX\Prefabs\Interactive\Powerups\PowerOrb" />
+     <Folder Include="Assets\Pakages\Epic Toon FX\Prefabs\Combat\Sword\- Legacy\SwordHitLegacy" />
+     <Folder Include="Assets\Pakages\Epic Toon FX\Prefabs\Environment\Fireflies" />
+     <Folder Include="Assets\Pakages\Epic Toon FX\Prefabs\Combat\Missiles\MagicSoft" />
+     <Folder Include="Assets\Pakages\Epic Toon FX\Materials\Misc\Hearts" />
+     <Folder Include="Assets\Models\Barbell\mat" />
+     <Folder Include="Assets\Pakages\Epic Toon FX\Prefabs 2D\Blood" />
+     <Folder Include="Assets\Pakages\Epic Toon FX\Prefabs\Combat\Sword\Wave" />
+     <Folder Include="Assets\Pakages\Epic Toon FX\Prefabs\Combat\Sword\Hit\SwordHitMagic" />
+     <None Include="Library\PackageCache\com.unity.test-framework@1.1.31\package.json" />
+     <Folder Include="Assets\Pakages\Epic Toon FX\Prefabs\Environment\Water" />
+     <Folder Include="Library\PackageCache\com.unity.modules.unityanalytics@1.0.0" />
+     <Folder Include="Library\PackageCache\com.unity.modules.physics@1.0.0" />
+     <Folder Include="Assets\Pakages\Epic Toon FX\Prefabs\Interactive\Money\Coins" />
+     <Folder Include="Library\PackageCache\com.unity.textmeshpro@3.0.6\Scripts" />
+     <Folder Include="Assets\Prefabs\Levels" />
+     <Folder Include="Library\PackageCache\com.unity.visualscripting@1.7.8\Runtime" />
+     <Folder Include="Assets\Pakages\GUI Mobile Hyper-Casual\Sprites\Items PSD + PNG\Glasses" />
+     <Folder Include="Assets\Pakages\GUI Mobile Hyper-Casual\Sprites\Items PSD + PNG\Small Stars" />
+     <None Include="Library\PackageCache\com.unity.collab-proxy@1.17.7\Lib\Editor\PlasticSCM\localization\basecommands.en.txt" />
+     <Folder Include="Assets\Pakages\Epic Toon FX\Demo\Textures\Skybox" />
+     <Folder Include="Assets\Pakages\Epic Toon FX\Prefabs\Environment\Smoke" />
+     <Folder Include="Library\PackageCache\com.unity.modules.vr@1.0.0" />
+     <Folder Include="Assets\Pakages\GUI Mobile Hyper-Casual\Sprites\Items PSD + PNG\Skull" />
+     <Folder Include="Library\PackageCache\com.unity.testtools.codecoverage@1.2.2" />
+     <None Include="Library\PackageCache\com.unity.collab-proxy@1.17.7\Lib\Editor\PlasticSCM\localization\images.ko.txt" />
+     <None Include="Library\PackageCache\com.unity.collab-proxy@1.17.7\Lib\Editor\PlasticSCM\localization\workspaceserver.es.txt" />
+     <Folder Include="Library\PackageCache\com.unity.modules.physics2d@1.0.0" />
+     <Folder Include="Assets\Prefabs\Weights" />
+     <Folder Include="Assets\Pakages\Epic Toon FX\Prefabs\Combat\Brawling\Stun" />
+     <None Include="Library\PackageCache\com.unity.performance.profile-analyzer@1.1.1\package.json" />
+     <Folder Include="Assets\Pakages\GUI Mobile Hyper-Casual\Sprites\Items PSD + PNG\Badge" />
+     <Folder Include="Assets\Pakages\Epic Toon FX\Materials\Misc\Decals" />
+     <Folder Include="Assets\Pakages\Epic Toon FX\Prefabs\Combat\Explosions\LaserExplosion" />
+     <Folder Include="Assets\Pakages\Epic Toon FX\Prefabs\Combat\Explosions\SoulExplosion" />
+     <Folder Include="Library\PackageCache\com.unity.inputsystem@1.4.4" />
+     <None Include="Library\PackageCache\com.unity.collab-proxy@1.17.7\Lib\Editor\PlasticSCM\localization\cm-help.en.txt" />
+     <Folder Include="Assets\Pakages\Epic Toon FX\Prefabs\Environment\Lightning" />
+     <Folder Include="Assets\Pakages\Epic Toon FX\Prefabs\Combat\Muzzleflash\LaserMuzzle" />
+     <None Include="Library\PackageCache\com.unity.modules.particlesystem@1.0.0\package.json" />
+     <None Include="Library\PackageCache\com.unity.collab-proxy@1.17.7\Lib\Editor\PlasticSCM\localization\binmergetool.ko.txt" />
+     <Folder Include="Assets\Pakages\Epic Toon FX\Models\Materials" />
+     <None Include="Library\PackageCache\com.unity.collab-proxy@1.17.7\Lib\Editor\PlasticSCM\localization\mergetool.en.txt" />
+     <None Include="Library\PackageCache\com.unity.collab-proxy@1.17.7\Lib\Editor\PlasticSCM\localization\workspaceserver.zh-Hans.txt" />
+     <Folder Include="Assets\Pakages\GUI Mobile Hyper-Casual\Sprites\Items PSD + PNG\Firecracker" />
+     <Folder Include="Assets\Pakages\Epic Toon FX\Prefabs\Combat\Sword\Whirlwind" />
+     <Folder Include="Library\PackageCache\com.unity.modules.wind@1.0.0" />
+     <None Include="Library\PackageCache\com.unity.collab-proxy@1.17.7\Lib\Editor\PlasticSCM\localization\binmergetool.zh-Hant.txt" />
+     <Folder Include="Assets\Pakages\Epic Toon FX\Prefabs\Combat\Explosions\MagicExplosion" />
+     <Folder Include="Assets\Pakages\GUI Mobile Hyper-Casual\Sprites\Items PSD + PNG\Coins\Coin" />
+     <None Include="Library\PackageCache\com.unity.collab-proxy@1.17.7\Lib\Editor\PlasticSCM\localization\plastic-gui.en.txt" />
+     <None Include="Library\PackageCache\com.unity.modules.physics2d@1.0.0\package.json" />
+     <Folder Include="Assets\Pakages\Epic Toon FX\Prefabs\Environment\Water\Flowing\Soft" />
+     <Folder Include="Assets\Pakages\Epic Toon FX\Prefabs\Combat\Blood\Green" />
+     <Folder Include="Assets\Pakages\Epic Toon FX" />
+     <Folder Include="Assets\Pakages\Epic Toon FX\Prefabs\Combat\Shield" />
+     <None Include="Library\PackageCache\com.unity.collab-proxy@1.17.7\Lib\Editor\PlasticSCM\localization\differences.zh-Hans.txt" />
+     <Folder Include="Assets\Pakages\Epic Toon FX\Prefabs\Combat\Decals\Bullet Decal" />
+     <Folder Include="Assets\Pakages\Epic Toon FX\Prefabs\Combat\Blood" />
+     <None Include="Library\PackageCache\com.unity.modules.vr@1.0.0\package.json" />
+     <None Include="Library\PackageCache\com.unity.collab-proxy@1.17.7\Lib\Editor\PlasticSCM\localization\binmergetool.en.txt" />
+     <None Include="Library\PackageCache\com.unity.services.core@1.6.0\package.json" />
+     <Folder Include="Library\PackageCache\com.unity.modules.uielements@1.0.0" />
+     <None Include="Library\PackageCache\com.unity.visualscripting@1.7.8\ValidationExceptions.json" />
+     <None Include="Assets\Pakages\Epic Toon FX\Prefabs\Interactive\Interactive FX.txt" />
+     <Folder Include="Library\PackageCache\com.unity.modules.unitywebrequestaudio@1.0.0" />
+     <Folder Include="Assets\Pakages\Epic Toon FX\Prefabs 2D\Water\Flowing" />
+     <Folder Include="Library\PackageCache\com.unity.modules.particlesystem@1.0.0" />
+     <None Include="Library\PackageCache\com.unity.collab-proxy@1.17.7\Lib\Editor\PlasticSCM\localization\configurehelper.zh-Hant.txt" />
+     <Folder Include="Assets\Pakages\Epic Toon FX\Demo\Materials\Skybox" />
+     <Folder Include="Library\PackageCache\com.unity.settings-manager@1.0.3" />
+     <None Include="Library\PackageCache\com.unity.collab-proxy@1.17.7\Lib\Editor\PlasticSCM\localization\cm-help.zh-Hans.txt" />
+     <Folder Include="Assets\Pakages\Epic Toon FX\Demo\Missile Prefabs\Laser" />
+     <None Include="Library\PackageCache\com.unity.collab-proxy@1.17.7\Lib\Editor\PlasticSCM\localization\semantic.ko.txt" />
+     <None Include="Library\PackageCache\com.unity.collab-proxy@1.17.7\Lib\Editor\PlasticSCM\localization\workspaceserver.en.txt" />
+     <None Include="Library\PackageCache\com.unity.ide.visualstudio@2.0.16\ValidationExceptions.json" />
+     <Folder Include="Assets\Pakages\GUI Mobile Hyper-Casual\Sprites\Items PSD + PNG\Clover" />
+     <None Include="Library\PackageCache\com.unity.collab-proxy@1.17.7\Lib\Editor\PlasticSCM\localization\cm-help.zh-Hant.txt" />
+     <None Include="Library\PackageCache\com.unity.nuget.newtonsoft-json@3.0.2\link.xml" />
+     <Folder Include="Assets\Pakages\Epic Toon FX\Prefabs\Environment\Fog\White" />
+     <Folder Include="Assets\Pakages\Epic Toon FX\Prefabs 2D\Explosions" />
+     <None Include="Library\PackageCache\com.unity.modules.wind@1.0.0\package.json" />
+     <None Include="Library\PackageCache\com.unity.collab-proxy@1.17.7\Lib\Editor\PlasticSCM\localization\clientcommon.zh-Hant.txt" />
+     <Folder Include="Assets\Models" />
+     <Folder Include="Library\PackageCache\com.unity.ugui@1.0.0\Tests" />
+     <None Include="Library\PackageCache\com.unity.collab-proxy@1.17.7\Lib\Editor\PlasticSCM\localization\xdiff.zh-Hant.txt" />
+     <None Include="Library\PackageCache\com.unity.modules.umbra@1.0.0\package.json" />
+     <Folder Include="Assets\Pakages\Epic Toon FX\Materials\Misc\Unsorted" />
+     <Folder Include="Assets\Pakages\Epic Toon FX\Prefabs\Interactive\Cards" />
+     <None Include="Library\PackageCache\com.unity.nuget.newtonsoft-json@3.0.2\package.json" />
+     <Folder Include="Library\PackageCache\com.unity.textmeshpro@3.0.6\Editor Resources\Textures" />
+     <Folder Include="Assets\Pakages\Epic Toon FX\Prefabs\Environment\Confetti\Directional" />
+     <Folder Include="Library\PackageCache\com.unity.modules.tilemap@1.0.0" />
+     <Folder Include="Library\PackageCache\com.unity.editorcoroutines@1.0.0" />
+     <None Include="Library\PackageCache\com.unity.collab-proxy@1.17.7\Lib\Editor\PlasticSCM\localization\i3.zh-Hant.txt" />
+     <Folder Include="Assets\Pakages\Epic Toon FX\Prefabs\Combat\Decals" />
+     <Folder Include="Assets\Pakages\Epic Toon FX\Demo\Materials\Bullet Surfaces" />
+     <Folder Include="Assets\Pakages\Epic Toon FX\Prefabs 2D\Weather" />
+     <Folder Include="Assets\Pakages\GUI Mobile Hyper-Casual\Sprites\Emojis PNG\PNG" />
+     <None Include="Library\PackageCache\com.unity.collab-proxy@1.17.7\Lib\Editor\PlasticSCM\localization\cm.ko.txt" />
+     <None Include="Library\PackageCache\com.unity.collab-proxy@1.17.7\Lib\Editor\PlasticSCM\localization\guihelp.zh-Hans.txt" />
+     <Folder Include="Library\PackageCache\com.unity.modules.ui@1.0.0" />
+     <Folder Include="Assets\Pakages\GUI Mobile Hyper-Casual\Sprites\Items PSD + PNG\Bomb" />
+     <Folder Include="Library\PackageCache\com.unity.services.core@1.6.0\Runtime" />
+     <Folder Include="Assets\Pakages\Epic Toon FX\Prefabs\Environment\Stars" />
+     <Folder Include="Assets\Pakages\GUI Mobile Hyper-Casual\Sprites\Items PSD + PNG\Shield" />
+     <Folder Include="Assets\Pakages\Epic Toon FX\Prefabs\Environment\Fire" />
+     <Folder Include="Assets\Pakages\Epic Toon FX\Prefabs\Combat\Muzzleflash" />
+     <Folder Include="Assets\Pakages\Epic Toon FX\Prefabs\Combat\Explosions\LiquidExplosion" />
+     <Folder Include="Assets\Pakages\Epic Toon FX\Prefabs\Combat\Muzzleflash\NukeMuzzle" />
+     <Folder Include="Assets\Pakages\Epic Toon FX\Prefabs\Environment\Lightning\Soft" />
+     <Folder Include="Assets\Resources" />
+     <Folder Include="Assets\Pakages\Epic Toon FX\Prefabs\Combat\Explosions\FireballExplosion" />
+     <Folder Include="Assets\Pakages\Epic Toon FX\Prefabs\Environment\Water\Boiling" />
+     <Folder Include="Assets\Pakages\Epic Toon FX\Prefabs\Combat\Sword\Hit" />
+     <None Include="Library\PackageCache\com.unity.collab-proxy@1.17.7\Lib\Editor\PlasticSCM\FileSystemWatcherLicense.txt" />
+     <Folder Include="Assets\Pakages\Epic Toon FX\Prefabs\Environment\Fire\Soft\SoftFireADD" />
+     <Folder Include="Library\PackageCache\com.unity.modules.androidjni@1.0.0" />
+     <Folder Include="Assets\Pakages\Epic Toon FX\Prefabs\Combat\Flamethrower\Soft" />
+     <Folder Include="Assets\Pakages\Epic Toon FX\Prefabs\Combat\Brawling" />
+     <Folder Include="Assets\Pakages\Epic Toon FX\Prefabs\Combat\Missiles\Nuke" />
+     <Folder Include="Assets\Pakages\Epic Toon FX\Prefabs\Environment\Weather" />
+     <Folder Include="Assets\Pakages\Epic Toon FX\Prefabs\Combat\Muzzleflash\ShadowMuzzle" />
+     <Folder Include="Library\PackageCache\com.unity.performance.profile-analyzer@1.1.1\Tests" />
+     <Folder Include="Assets\Pakages\Epic Toon FX\Demo\Missile Prefabs\Magic" />
+     <Folder Include="Assets\Pakages\Epic Toon FX\Prefabs\Interactive\Money\Bills" />
+     <Folder Include="Assets\Pakages\Epic Toon FX\Prefabs\Combat\Missiles" />
+     <Folder Include="Assets\Pakages\Epic Toon FX\Prefabs\Combat\Explosions\MysticExplosion" />
+     <Folder Include="Assets\Pakages\GUI Mobile Hyper-Casual\Sprites\Items PSD + PNG\Double Sword" />
+     <None Include="Library\PackageCache\com.unity.inputsystem@1.4.4\ValidationExceptions.json" />
+     <Folder Include="Library\PackageCache\com.unity.textmeshpro@3.0.6\Editor Resources\Gizmos" />
+     <None Include="Library\PackageCache\com.unity.modules.audio@1.0.0\package.json" />
+     <None Include="Library\PackageCache\com.unity.collab-proxy@1.17.7\Lib\Editor\PlasticSCM\localization\cm-help.ko.txt" />
+     <Folder Include="Assets\Pakages\GUI Mobile Hyper-Casual\Sprites\Items PSD + PNG\Radial Shine" />
+     <Folder Include="Assets\Pakages\Epic Toon FX\Prefabs 2D\Blood\Yellow" />
+     <None Include="Library\PackageCache\com.unity.collab-proxy@1.17.7\Lib\Editor\PlasticSCM\localization\cm-help.ja.txt" />
+     <Folder Include="Assets\Pakages\Epic Toon FX\Prefabs\Interactive\Emojis 2" />
+     <Folder Include="Assets\Pakages\Epic Toon FX\Prefabs\Combat\Explosions\NukeExplosion" />
+     <None Include="Library\PackageCache\com.unity.collab-proxy@1.17.7\Lib\Editor\PlasticSCM\localization\clientcommon.en.txt" />
+     <None Include="Library\PackageCache\com.unity.modules.physics@1.0.0\package.json" />
+     <Folder Include="Library\PackageCache\com.unity.collab-proxy@1.17.7" />
+     <None Include="Library\PackageCache\com.unity.collab-proxy@1.17.7\Lib\Editor\PlasticSCM\localization\binmergetool.zh-Hans.txt" />
+     <Folder Include="Assets\Pakages\Epic Toon FX\Prefabs\Environment\Fire\Cartoon\Field Intense" />
+     <Folder Include="Assets\Pakages\GUI Mobile Hyper-Casual\Sprites\Items PSD + PNG\Bolt" />
+     <Folder Include="Assets\Pakages\Epic Toon FX\Materials\Misc\Magic" />
+     <Folder Include="Assets\Pakages\Epic Toon FX\Prefabs\Combat\Muzzleflash\EnergyNovaSmallMuzzle" />
+     <Folder Include="Assets\Sources\Model" />
+     <Folder Include="Assets\Pakages\Epic Toon FX\Prefabs\Interactive\Flares" />
+     <None Include="Library\PackageCache\com.unity.collab-proxy@1.17.7\Lib\Editor\PlasticSCM\localization\i3.es.txt" />
+     <None Include="Library\PackageCache\com.unity.collab-proxy@1.17.7\Lib\Editor\PlasticSCM\localization\mergetool.zh-Hans.txt" />
+     <None Include="Library\PackageCache\com.unity.collab-proxy@1.17.7\Lib\Editor\PlasticSCM\localization\commontypes.zh-Hant.txt" />
+     <None Include="Library\PackageCache\com.unity.collab-proxy@1.17.7\Lib\Editor\PlasticSCM\localization\differences.ko.txt" />
+     <Folder Include="Assets\Pakages\Epic Toon FX\Prefabs\Interactive\Sparkle\SparkleSolo" />
+     <None Include="Library\PackageCache\com.unity.modules.vehicles@1.0.0\package.json" />
+     <Folder Include="Assets\Pakages\Epic Toon FX\Prefabs\Combat\Explosions\MagicSoftExplosion" />
+     <Folder Include="Library\PackageCache\com.unity.collab-proxy@1.17.7\Lib\Editor" />
+     <Folder Include="Assets\Pakages\Epic Toon FX\Demo\Missile Prefabs\Storm" />
+     <Folder Include="Assets\Pakages\GUI Mobile Hyper-Casual\Artwork PSD + Screens\PSD" />
+     <None Include="Library\PackageCache\com.unity.collab-proxy@1.17.7\Lib\Editor\PlasticSCM\localization\plastic-gui.es.txt" />
+     <None Include="Library\PackageCache\com.unity.collab-proxy@1.17.7\Lib\Editor\PlasticSCM\localization\images.en.txt" />
+     <None Include="Library\PackageCache\com.unity.collab-proxy@1.17.7\Lib\Editor\PlasticSCM\localization\binmergetool.ja.txt" />
+     <Folder Include="Assets\Pakages\Epic Toon FX\Materials\Misc\Explosions" />
+     <Folder Include="Assets\Pakages\Epic Toon FX\Prefabs\Environment\Fire\Cartoon\Field" />
+     <Folder Include="Assets\Pakages\Epic Toon FX\Prefabs\Combat\Sword\Hit\SwordHit" />
+     <None Include="Library\PackageCache\com.unity.testtools.codecoverage@1.2.2\package.json" />
+     <Folder Include="Assets\Pakages\Epic Toon FX\Prefabs\Environment\Dust" />
+     <Folder Include="Library\PackageCache\com.unity.textmeshpro@3.0.6" />
+     <Folder Include="Assets\Pakages\GUI Mobile Hyper-Casual\Artwork PSD + Screens" />
+     <None Include="Library\PackageCache\com.unity.modules.uielementsnative@1.0.0\package.json" />
+     <Folder Include="Assets\Pakages\Epic Toon FX\Prefabs\Interactive\Zone\BasicZone" />
+     <Folder Include="Assets\Pakages\Epic Toon FX\Textures\Text" />
+     <Folder Include="Assets\Pakages\Epic Toon FX\Prefabs\Combat\Muzzleflash\- Misc" />
+     <Folder Include="Assets\Pakages\GUI Mobile Hyper-Casual\Sprites\Items PSD + PNG\Potion\Potion2" />
+     <Folder Include="Library\PackageCache\com.unity.ide.rider@3.0.16" />
+     <Folder Include="Assets\Pakages\Epic Toon FX\Prefabs\Combat\Muzzleflash\EnergyNovaMuzzle" />
+     <None Include="Library\PackageCache\com.unity.modules.unitywebrequestwww@1.0.0\package.json" />
+     <Folder Include="Assets\Pakages\Epic Toon FX\Prefabs\Environment\Confetti" />
+     <Folder Include="Assets\Pakages\Epic Toon FX\Demo" />
+     <Folder Include="Assets\Pakages\Epic Toon FX\Prefabs\Combat\Missiles\Liquid" />
+     <Folder Include="Assets\Pakages\Epic Toon FX\Demo\Missile Prefabs\Sparkle" />
+     <Folder Include="Assets\Pakages\Epic Toon FX\Prefabs\Combat\Explosions\NukeVerticalExplosion" />
+     <Folder Include="Assets\Sources\Input" />
+     <Folder Include="Assets\Pakages\Epic Toon FX\Demo\Missile Prefabs\Fireball" />
+     <None Include="Library\PackageCache\com.unity.modules.unitywebrequestaudio@1.0.0\package.json" />
+     <Folder Include="Assets\Pakages\GUI Mobile Hyper-Casual\Read Me" />
+     <Folder Include="Assets\Pakages\GUI Mobile Hyper-Casual\Sprites\Items PSD + PNG\Closebook" />
+     <Folder Include="Assets\Pakages\GUI Mobile Hyper-Casual\Sprites\Items PSD + PNG\Gems\Gem 2" />
+     <Folder Include="Assets\Pakages\Epic Toon FX\Prefabs\Combat\Nova\Standard" />
+     <Folder Include="Assets\Pakages\Epic Toon FX\Prefabs\Combat\Muzzleflash\LiquidMuzzle" />
+     <Folder Include="Assets\Pakages\GUI Mobile Hyper-Casual\Sprites\Items PSD + PNG\Mushroom" />
+     <Folder Include="Assets\Pakages\Epic Toon FX\Prefabs\Combat\Muzzleflash\FireballMuzzle" />
+     <None Include="Library\PackageCache\com.unity.collab-proxy@1.17.7\Lib\Editor\PlasticSCM\localization\binmergetool.es.txt" />
+     <Folder Include="Assets\Pakages\GUI Mobile Hyper-Casual\Sprites\Items PSD + PNG\Flag" />
+     <None Include="Library\PackageCache\com.unity.collab-proxy@1.17.7\Lib\Editor\PlasticSCM\localization\cm.ja.txt" />
+     <Folder Include="Assets\Pakages\Epic Toon FX\Prefabs\Combat\Missiles\Gas" />
+     <Folder Include="Assets\Pakages\Epic Toon FX\Demo\Missile Prefabs\MagicSoft" />
+     <Folder Include="Assets\Pakages\Epic Toon FX\Materials\Misc\Cards" />
+     <None Include="Library\PackageCache\com.unity.textmeshpro@3.0.6\Editor Resources\Shaders\TMP_SDF_SSD.cginc" />
+     <Folder Include="Assets\Pakages\Epic Toon FX\Prefabs\Combat\Decals\Explosion Decal" />
+     <Folder Include="Assets\Pakages\Epic Toon FX\Prefabs\Environment\Water\Flowing" />
+     <Folder Include="Assets\Pakages\Epic Toon FX\Prefabs\Combat\Explosions\StarExplosion" />
+     <Folder Include="Assets\Pakages\Epic Toon FX\Prefabs\Environment\Fog\Grey" />
+     <Folder Include="Assets\Pakages\Epic Toon FX\Demo\Scenes\Extras" />
+     <Folder Include="Assets\Pakages\Epic Toon FX\Prefabs\Environment\Bubbles" />
+     <None Include="Library\PackageCache\com.unity.collab-proxy@1.17.7\ValidationConfig.json" />
+     <Folder Include="Assets\Pakages\Epic Toon FX\Prefabs\Combat\Brawling\Soft" />
+     <Folder Include="Assets\Pakages\Epic Toon FX\Prefabs\Interactive\Healing" />
+     <Folder Include="Assets\Pakages\Epic Toon FX\Textures" />
+     <Folder Include="Assets\Pakages\Epic Toon FX\Prefabs\Combat\Decals\Energy Decal" />
+     <None Include="Library\PackageCache\com.unity.collab-proxy@1.17.7\Lib\Editor\PlasticSCM\localization\images.ja.txt" />
+     <Folder Include="Assets\Pakages\Epic Toon FX\Prefabs\Interactive\Portals\WavePortal" />
+     <Folder Include="Assets\Pakages\Epic Toon FX\Prefabs\Combat\Magic\Circle Simple" />
+     <Folder Include="Assets\Pakages\Epic Toon FX\Prefabs\Environment\Fire\Candle" />
+     <Folder Include="Assets\Pakages\Epic Toon FX\Prefabs 2D\Blood\Red" />
+     <Folder Include="Library\PackageCache\com.unity.ide.vscode@1.2.5" />
+     <Folder Include="Library\PackageCache\com.unity.modules.vehicles@1.0.0" />
+     <Folder Include="Assets\Pakages\GUI Mobile Hyper-Casual\Sprites\Additional White Icons" />
+     <None Include="Library\PackageCache\com.unity.modules.xr@1.0.0\package.json" />
+     <Folder Include="Library\PackageCache\com.unity.textmeshpro@3.0.6\Tests" />
+     <Folder Include="Assets\Pakages\Epic Toon FX\Prefabs\Combat\Flamethrower\Soft\Additive" />
+     <Folder Include="Assets\Pakages\Epic Toon FX\Demo\Demo Prefabs" />
+     <Folder Include="Library\PackageCache\com.unity.services.core@1.6.0" />
+     <None Include="Library\PackageCache\com.unity.textmeshpro@3.0.6\Editor Resources\Shaders\TMP_Properties.cginc" />
+     <Folder Include="Assets\Pakages\Epic Toon FX\Prefabs\Environment\Stars\StarFog" />
+     <Folder Include="Assets\Pakages\BizulkaProduction\Stickman\Models" />
+     <Folder Include="Assets\Pakages\Epic Toon FX\Prefabs\Combat\Sword\Slash\SwordSlashMini" />
+     <Folder Include="Assets\Pakages\Epic Toon FX\Prefabs\Environment" />
+     <Folder Include="Assets\Pakages\Epic Toon FX\Prefabs\Combat\Flamethrower\Soft\Alpha Blend" />
+     <Folder Include="Assets\Pakages\Epic Toon FX\Prefabs\Combat\Muzzleflash\BulletMuzzle" />
+     <Folder Include="Assets\Pakages\Epic Toon FX\Prefabs\Combat\Missiles\Shadow" />
+     <Folder Include="Assets\Pakages\GUI Mobile Hyper-Casual\Sprites\Items PSD + PNG\Heart" />
+     <Folder Include="Assets\Pakages\Epic Toon FX\Demo\Animation" />
+     <Folder Include="Assets\Pakages\Epic Toon FX\Prefabs\Combat\Muzzleflash\GrenadeMuzzle" />
+     <Folder Include="Assets\Pakages\Epic Toon FX\Prefabs\Combat\Explosions\FrostExplosion" />
+     <Folder Include="Assets\Pakages\Epic Toon FX\Prefabs\Combat\Death" />
+     <Folder Include="Assets\Pakages\Epic Toon FX\Prefabs\Combat\Explosions\BulletFatExplosion" />
+     <Folder Include="Assets\Pakages\Epic Toon FX\Prefabs\Combat\Magic\PillarBlast" />
+     <None Include="Library\PackageCache\com.unity.textmeshpro@3.0.6\Editor Resources\Shaders\TMP_SDF Internal Editor.shader" />
+     <None Include="Library\PackageCache\com.unity.collab-proxy@1.17.7\Lib\Editor\PlasticSCM\localization\xdiff.es.txt" />
+     <Folder Include="Assets\Pakages\Epic Toon FX\Prefabs\Combat\Muzzleflash\MysticMuzzle" />
+     <None Include="Library\PackageCache\com.unity.collab-proxy@1.17.7\Lib\Editor\PlasticSCM\localization\configurehelper.zh-Hans.txt" />
+     <Folder Include="Library\PackageCache\com.unity.modules.umbra@1.0.0" />
+     <Folder Include="Assets\Pakages\BizulkaProduction\Stickman\Materials" />
+     <None Include="Library\PackageCache\com.unity.collab-proxy@1.17.7\Lib\Editor\PlasticSCM\localization\mergetool.zh-Hant.txt" />
+     <None Include="Library\PackageCache\com.unity.collab-proxy@1.17.7\Lib\Editor\PlasticSCM\localization\clientcommon.zh-Hans.txt" />
+     <Folder Include="Assets\Pakages\Epic Toon FX\Prefabs\Environment\Fire\Candle\CandleLightSoft" />
+     <Folder Include="Assets\Pakages\Epic Toon FX\Prefabs\Environment\Smoke\Dark" />
+     <Folder Include="Assets\Pakages\Epic Toon FX\Prefabs\Environment\Fire\Soft" />
+     <Folder Include="Assets\Pakages\Epic Toon FX\Prefabs\Interactive\Powerups\PowerupActivate" />
+     <None Include="Library\PackageCache\com.unity.collab-proxy@1.17.7\Lib\Editor\PlasticSCM\localization\semantic.ja.txt" />
+     <Folder Include="Assets\Pakages\Epic Toon FX\Demo\Missile Prefabs\BulletFat" />
+     <Folder Include="Assets\Pakages\Epic Toon FX\Prefabs\Combat\Blood\Yellow" />
+     <Folder Include="Library\PackageCache\com.unity.modules.unitywebrequestwww@1.0.0" />
+     <Folder Include="Library\PackageCache\com.unity.collab-proxy@1.17.7\Lib" />
+     <Folder Include="Assets\Pakages\BizulkaProduction" />
+     <None Include="Library\PackageCache\com.unity.modules.director@1.0.0\package.json" />
+     <None Include="Library\PackageCache\com.unity.ide.vscode@1.2.5\ValidationExceptions.json" />
+     <Folder Include="Library\PackageCache\com.unity.modules.jsonserialize@1.0.0" />
+     <None Include="Library\PackageCache\com.unity.visualscripting@1.7.8\ValidationConfig.json" />
+     <Folder Include="Assets\Pakages\Epic Toon FX\Prefabs\Combat\Explosions\SmallExplosion" />
+     <Folder Include="Library\PackageCache\com.unity.textmeshpro@3.0.6\Editor Resources\Shaders" />
+     <Folder Include="Library\PackageCache\com.unity.modules.director@1.0.0" />
+     <Folder Include="Library\PackageCache\com.unity.modules.audio@1.0.0" />
+     <Folder Include="Assets\Pakages\Epic Toon FX\Materials\Misc\Portals" />
+     <Folder Include="Library\PackageCache\com.unity.settings-manager@1.0.3\Content" />
+     <Folder Include="Assets\Pakages\Epic Toon FX\Upgrade" />
+     <None Include="Library\PackageCache\com.unity.modules.terrain@1.0.0\package.json" />
+     <Folder Include="Assets\Pakages\Epic Toon FX\Prefabs\Interactive\Powerups\PowerupGlow" />
+     <None Include="Library\PackageCache\com.unity.collab-proxy@1.17.7\Lib\Editor\PlasticSCM\localization\commontypes.ko.txt" />
+     <Folder Include="Assets\Pakages\GUI Mobile Hyper-Casual\Sprites\Items PSD + PNG\Cup" />
+     <Folder Include="Assets\Pakages\Epic Toon FX\Prefabs\Interactive\Loot\ItemSparkle" />
+     <Folder Include="Library\PackageCache\com.unity.ide.visualstudio@2.0.16" />
+     <Folder Include="Assets\Pakages\Epic Toon FX\Prefabs\Combat\Sword\Slash\SwordSlashThick" />
+     <Folder Include="Assets\Pakages\Epic Toon FX\Prefabs\Environment\Fire\Candle\CandleLight" />
+     <Folder Include="Assets\Pakages\Epic Toon FX\Prefabs\Environment\Fire\Cartoon" />
+     <Folder Include="Assets\Pakages\Epic Toon FX\Prefabs\Combat\Magic" />
+     <None Include="Library\PackageCache\com.unity.modules.androidjni@1.0.0\package.json" />
+     <Folder Include="Assets\Pakages\GUI Mobile Hyper-Casual\Sprites\Items PSD + PNG\Clock" />
+     <Folder Include="Assets\Pakages\Epic Toon FX\Prefabs\Combat\Muzzleflash\StormMuzzle" />
+     <Folder Include="Assets\Pakages\GUI Mobile Hyper-Casual\Sprites\Sprites by Menu\Buttons-assets" />
+     <Folder Include="Assets\Pakages\Epic Toon FX\Prefabs\Combat\Explosions\NovaExplosion" />
+     <Folder Include="Assets\Pakages\Epic Toon FX\Prefabs\Combat\Nova\Lightning" />
+     <None Include="Library\PackageCache\com.unity.collab-proxy@1.17.7\Lib\Editor\PlasticSCM\localization\commontypes.ja.txt" />
+     <Folder Include="Assets\Pakages\Epic Toon FX\Prefabs\Combat\Flamethrower\Spiky" />
+     <Folder Include="Library\PackageCache\com.unity.modules.video@1.0.0" />
+     <Folder Include="Assets\Pakages\Epic Toon FX\Demo\Scenes" />
+     <Folder Include="Assets\Pakages\GUI Mobile Hyper-Casual\Sprites\Items PSD + PNG\Stars" />
+     <Folder Include="Library\PackageCache\com.unity.modules.ai@1.0.0" />
+     <None Include="Library\PackageCache\com.unity.collab-proxy@1.17.7\Lib\Editor\PlasticSCM\localization\configurehelper.ko.txt" />
+     <None Include="Library\PackageCache\com.unity.textmeshpro@3.0.6\PackageConversionData_Assets.json" />
+     <Folder Include="Assets\Pakages\Epic Toon FX\Prefabs\Combat\Missiles\Frost" />
+     <Folder Include="Assets\Pakages" />
+     <Folder Include="Assets\Pakages\GUI Mobile Hyper-Casual\Sprites\Items PSD + PNG\Gun" />
+     <Folder Include="Assets\Pakages\Epic Toon FX\Prefabs\Environment\Fire\Soft\SoftFireBig" />
+     <Folder Include="Assets\Pakages\Epic Toon FX\Prefabs\Combat\Explosions\GasExplosion" />
+     <Folder Include="Assets\Prefabs" />
+     <Folder Include="Assets\Pakages\GUI Mobile Hyper-Casual\Sprites\Items PSD + PNG\Pills" />
+     <Folder Include="Assets\Pakages\Epic Toon FX\Prefabs\Environment\Fog\Black" />
+     <Folder Include="Library\PackageCache\com.unity.collab-proxy@1.17.7\Editor" />
+     <Folder Include="Assets\Pakages\Epic Toon FX\Prefabs\Environment\Fire\Soft\SoftTallFire" />
+     <Folder Include="Assets\Pakages\Epic Toon FX\Textures\Emojis" />
+     <Folder Include="Library\PackageCache\com.unity.textmeshpro@3.0.6\Package Resources" />
+     <Folder Include="Assets\Scenes" />
+     <Folder Include="Assets\Pakages\Epic Toon FX\Prefabs\Combat\Death\Souls" />
+     <Folder Include="Assets\Pakages\Epic Toon FX\Prefabs\Combat\Missiles\Grenade" />
+     <Folder Include="Library\PackageCache\com.unity.modules.terrain@1.0.0" />
+     <Folder Include="Assets\Pakages\Epic Toon FX\Prefabs\Combat\Sword\- Legacy" />
+     <None Include="Library\PackageCache\com.unity.modules.animation@1.0.0\package.json" />
+     <Folder Include="Assets\Pakages\Epic Toon FX\Prefabs\Combat\Missiles\Storm" />
+     <Folder Include="Library\PackageCache\com.unity.nuget.newtonsoft-json@3.0.2" />
+     <Folder Include="Assets\Pakages\Epic Toon FX\Prefabs\Combat\Magic\Charge" />
+     <Folder Include="Assets\Pakages\Epic Toon FX\Prefabs\Interactive\Flares\Soft" />
+     <Folder Include="Library\PackageCache\com.unity.modules.uielementsnative@1.0.0" />
+     <Folder Include="Library\PackageCache\com.unity.testtools.codecoverage@1.2.2\lib" />
+     <None Include="Library\PackageCache\com.unity.collab-proxy@1.17.7\Lib\Editor\PlasticSCM\localization\guihelp.es.txt" />
+     <Folder Include="Assets\Pakages\Epic Toon FX\Scripts" />
+     <None Include="Library\PackageCache\com.unity.collab-proxy@1.17.7\Lib\Editor\PlasticSCM\localization\differences.en.txt" />
+     <None Include="Library\PackageCache\com.unity.collab-proxy@1.17.7\Lib\Editor\PlasticSCM\localization\workspaceserver.ja.txt" />
+     <Folder Include="Assets\Pakages\GUI Mobile Hyper-Casual\Sprites\Items PSD + PNG\Wizard Hat" />
+     <None Include="Library\PackageCache\com.unity.collab-proxy@1.17.7\Lib\Editor\PlasticSCM\localization\mergetool.ko.txt" />
+     <Folder Include="Assets\Pakages\Epic Toon FX\Demo\Demo Prefabs\VFX Library" />
+     <Folder Include="Assets\Pakages\GUI Mobile Hyper-Casual\Sprites\Items PSD + PNG\Eye" />
+     <Folder Include="Assets\Pakages\Epic Toon FX\Prefabs\Environment\Fire\Cartoon\Torch" />
+     <Folder Include="Assets\Pakages\GUI Mobile Hyper-Casual\Sprites\Sprites by Menu\Prize Machine-assets" />
+     <Folder Include="Assets\Pakages\Epic Toon FX\Prefabs\Interactive\Loot\ItemSparkleSoft" />
+     <Folder Include="Library\PackageCache\com.unity.nuget.newtonsoft-json@3.0.2\Runtime" />
+     <Folder Include="Assets\Pakages\GUI Mobile Hyper-Casual\Sprites\Items PSD + PNG\Potion\Potion" />
+     <Folder Include="Assets\Pakages\Epic Toon FX\Prefabs\Environment\Weather\Snow" />
+     <Folder Include="Assets\Pakages\Epic Toon FX\Prefabs\Combat\Missiles\Lightning" />
+     <Folder Include="Assets\Pakages\Epic Toon FX\Materials\Misc\Lightning" />
+     <None Include="Library\PackageCache\com.unity.collab-proxy@1.17.7\Lib\Editor\PlasticSCM\localization\clientcommon.ko.txt" />
+     <Folder Include="Library\PackageCache\com.unity.visualscripting@1.7.8\Editor" />
+     <None Include="Library\PackageCache\com.unity.collab-proxy@1.17.7\Lib\Editor\PlasticSCM\localization\i3.ja.txt" />
+     <Folder Include="Assets\Pakages\Epic Toon FX\Prefabs\Combat\Muzzleflash\MagicMuzzle" />
+     <Folder Include="Assets\Pakages\Epic Toon FX\Prefabs\Combat\Brawling\RoundHit" />
+     <Folder Include="Assets\Pakages\Epic Toon FX\Materials\Misc" />
+     <Folder Include="Assets\Pakages\GUI Mobile Hyper-Casual\Sprites\Items PSD + PNG\TV" />
+     <Folder Include="Assets\Pakages\Epic Toon FX\Prefabs\Environment\Fire\Trails" />
+     <Folder Include="Library\PackageCache\com.unity.collab-proxy@1.17.7\Lib\Editor\PlasticSCM\localization" />
+     <None Include="Library\PackageCache\com.unity.collab-proxy@1.17.7\Lib\Editor\PlasticSCM\localization\cm.zh-Hans.txt" />
+     <Folder Include="Assets\Pakages\Epic Toon FX\Prefabs\Interactive\Money" />
+     <Folder Include="Assets\Pakages\Epic Toon FX\Prefabs\Combat\Blood\Red" />
+     <None Include="Library\PackageCache\com.unity.modules.unitywebrequest@1.0.0\package.json" />
+     <Folder Include="Assets\Sources\Model\Barbell" />
+     <Folder Include="Assets\Pakages\GUI Mobile Hyper-Casual\Sprites\Items PSD + PNG\Icon Club" />
+     <Folder Include="Assets\Pakages\Epic Toon FX\Prefabs\Combat\Sword\- Legacy\SwordHitCriticalLegacy" />
+     <None Include="Library\PackageCache\com.unity.modules.uielements@1.0.0\package.json" />
+     <None Include="Library\PackageCache\com.unity.collab-proxy@1.17.7\Lib\Editor\PlasticSCM\localization\plastic-gui.ja.txt" />
+     <Folder Include="Assets\Pakages\GUI Mobile Hyper-Casual\Artwork PSD + Screens\SCREENS" />
+     <None Include="Library\PackageCache\com.unity.collab-proxy@1.17.7\Lib\Editor\PlasticSCM\localization\i3.en.txt" />
+     <None Include="Library\PackageCache\com.unity.collab-proxy@1.17.7\Lib\Editor\PlasticSCM\localization\workspaceserver.zh-Hant.txt" />
+     <Folder Include="Library\PackageCache\com.unity.modules.unitywebrequesttexture@1.0.0" />
+     <None Include="Library\PackageCache\com.unity.collab-proxy@1.17.7\Lib\Editor\PlasticSCM\localization\cm.zh-Hant.txt" />
+     <Folder Include="Assets\Pakages\GUI Mobile Hyper-Casual\Sprites\Items PSD + PNG\Bag\Bag" />
+     <None Include="Library\PackageCache\com.unity.collab-proxy@1.17.7\Lib\Editor\PlasticSCM\localization\xdiff.en.txt" />
+     <Folder Include="Assets\Pakages\Epic Toon FX\Prefabs\Environment\Stars\StarVortex" />
+     <Folder Include="Library\PackageCache\com.unity.ugui@1.0.0" />
+     <Folder Include="Library\PackageCache\com.unity.settings-manager@1.0.3\Tests" />
+     <Folder Include="Assets\Pakages\Epic Toon FX\Prefabs\Environment\Sparks" />
+     <Folder Include="Assets\Pakages\GUI Mobile Hyper-Casual\Sprites\Emojis PNG\PNG\Set Emojis-assets" />
+     <Folder Include="Assets\Pakages\Epic Toon FX\Demo\Missile Prefabs\Rocket" />
+     <None Include="Library\PackageCache\com.unity.modules.ui@1.0.0\package.json" />
+     <None Include="Library\PackageCache\com.unity.collab-proxy@1.17.7\Lib\Editor\PlasticSCM\localization\semantic.zh-Hans.txt" />
+     <Folder Include="Assets\Pakages\GUI Mobile Hyper-Casual\Sprites\Items PSD + PNG\Bag\Bag 1" />
+     <None Include="Library\PackageCache\com.unity.collab-proxy@1.17.7\Lib\Editor\PlasticSCM\localization\i3.ko.txt" />
+     <Folder Include="Assets\Pakages\Epic Toon FX\Prefabs\Environment\Fire\Spiky" />
+     <Folder Include="Assets\Pakages\Epic Toon FX\Prefabs\Combat\Text" />
+     <Folder Include="Assets\Pakages\Epic Toon FX\Prefabs\Interactive\Zone\BasicZoneWall" />
+     <Folder Include="Assets\Pakages\GUI Mobile Hyper-Casual\Sprites\Items PSD + PNG\Potion" />
+     <Folder Include="Assets\Pakages\GUI Mobile Hyper-Casual\Sprites\Items PSD + PNG\Diamonds\Diamonds" />
+     <Folder Include="Assets\Pakages\Epic Toon FX\Prefabs\Interactive\Powerups\PowerOrbSciFi" />
+     <None Include="Library\PackageCache\com.unity.collab-proxy@1.17.7\Lib\Editor\PlasticSCM\localization\guihelp.ko.txt" />
+     <None Include="Library\PackageCache\com.unity.ide.vscode@1.2.5\package.json" />
+     <Reference Include="UnityEngine">
+     <HintPath>R:\Program Files\2021.3.16f1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.AIModule">
+     <HintPath>R:\Program Files\2021.3.16f1\Editor\Data\Managed\UnityEngine\UnityEngine.AIModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.ARModule">
+     <HintPath>R:\Program Files\2021.3.16f1\Editor\Data\Managed\UnityEngine\UnityEngine.ARModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.AccessibilityModule">
+     <HintPath>R:\Program Files\2021.3.16f1\Editor\Data\Managed\UnityEngine\UnityEngine.AccessibilityModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.AndroidJNIModule">
+     <HintPath>R:\Program Files\2021.3.16f1\Editor\Data\Managed\UnityEngine\UnityEngine.AndroidJNIModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.AnimationModule">
+     <HintPath>R:\Program Files\2021.3.16f1\Editor\Data\Managed\UnityEngine\UnityEngine.AnimationModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.AssetBundleModule">
+     <HintPath>R:\Program Files\2021.3.16f1\Editor\Data\Managed\UnityEngine\UnityEngine.AssetBundleModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.AudioModule">
+     <HintPath>R:\Program Files\2021.3.16f1\Editor\Data\Managed\UnityEngine\UnityEngine.AudioModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.ClothModule">
+     <HintPath>R:\Program Files\2021.3.16f1\Editor\Data\Managed\UnityEngine\UnityEngine.ClothModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.CoreModule">
+     <HintPath>R:\Program Files\2021.3.16f1\Editor\Data\Managed\UnityEngine\UnityEngine.CoreModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.CrashReportingModule">
+     <HintPath>R:\Program Files\2021.3.16f1\Editor\Data\Managed\UnityEngine\UnityEngine.CrashReportingModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.DSPGraphModule">
+     <HintPath>R:\Program Files\2021.3.16f1\Editor\Data\Managed\UnityEngine\UnityEngine.DSPGraphModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.DirectorModule">
+     <HintPath>R:\Program Files\2021.3.16f1\Editor\Data\Managed\UnityEngine\UnityEngine.DirectorModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.GIModule">
+     <HintPath>R:\Program Files\2021.3.16f1\Editor\Data\Managed\UnityEngine\UnityEngine.GIModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.GameCenterModule">
+     <HintPath>R:\Program Files\2021.3.16f1\Editor\Data\Managed\UnityEngine\UnityEngine.GameCenterModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.GridModule">
+     <HintPath>R:\Program Files\2021.3.16f1\Editor\Data\Managed\UnityEngine\UnityEngine.GridModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.HotReloadModule">
+     <HintPath>R:\Program Files\2021.3.16f1\Editor\Data\Managed\UnityEngine\UnityEngine.HotReloadModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.IMGUIModule">
+     <HintPath>R:\Program Files\2021.3.16f1\Editor\Data\Managed\UnityEngine\UnityEngine.IMGUIModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.ImageConversionModule">
+     <HintPath>R:\Program Files\2021.3.16f1\Editor\Data\Managed\UnityEngine\UnityEngine.ImageConversionModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.InputModule">
+     <HintPath>R:\Program Files\2021.3.16f1\Editor\Data\Managed\UnityEngine\UnityEngine.InputModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.InputLegacyModule">
+     <HintPath>R:\Program Files\2021.3.16f1\Editor\Data\Managed\UnityEngine\UnityEngine.InputLegacyModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.JSONSerializeModule">
+     <HintPath>R:\Program Files\2021.3.16f1\Editor\Data\Managed\UnityEngine\UnityEngine.JSONSerializeModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.LocalizationModule">
+     <HintPath>R:\Program Files\2021.3.16f1\Editor\Data\Managed\UnityEngine\UnityEngine.LocalizationModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.ParticleSystemModule">
+     <HintPath>R:\Program Files\2021.3.16f1\Editor\Data\Managed\UnityEngine\UnityEngine.ParticleSystemModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.PerformanceReportingModule">
+     <HintPath>R:\Program Files\2021.3.16f1\Editor\Data\Managed\UnityEngine\UnityEngine.PerformanceReportingModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.PhysicsModule">
+     <HintPath>R:\Program Files\2021.3.16f1\Editor\Data\Managed\UnityEngine\UnityEngine.PhysicsModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.Physics2DModule">
+     <HintPath>R:\Program Files\2021.3.16f1\Editor\Data\Managed\UnityEngine\UnityEngine.Physics2DModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.ProfilerModule">
+     <HintPath>R:\Program Files\2021.3.16f1\Editor\Data\Managed\UnityEngine\UnityEngine.ProfilerModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule">
+     <HintPath>R:\Program Files\2021.3.16f1\Editor\Data\Managed\UnityEngine\UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.ScreenCaptureModule">
+     <HintPath>R:\Program Files\2021.3.16f1\Editor\Data\Managed\UnityEngine\UnityEngine.ScreenCaptureModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.SharedInternalsModule">
+     <HintPath>R:\Program Files\2021.3.16f1\Editor\Data\Managed\UnityEngine\UnityEngine.SharedInternalsModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.SpriteMaskModule">
+     <HintPath>R:\Program Files\2021.3.16f1\Editor\Data\Managed\UnityEngine\UnityEngine.SpriteMaskModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.SpriteShapeModule">
+     <HintPath>R:\Program Files\2021.3.16f1\Editor\Data\Managed\UnityEngine\UnityEngine.SpriteShapeModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.StreamingModule">
+     <HintPath>R:\Program Files\2021.3.16f1\Editor\Data\Managed\UnityEngine\UnityEngine.StreamingModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.SubstanceModule">
+     <HintPath>R:\Program Files\2021.3.16f1\Editor\Data\Managed\UnityEngine\UnityEngine.SubstanceModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.SubsystemsModule">
+     <HintPath>R:\Program Files\2021.3.16f1\Editor\Data\Managed\UnityEngine\UnityEngine.SubsystemsModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.TLSModule">
+     <HintPath>R:\Program Files\2021.3.16f1\Editor\Data\Managed\UnityEngine\UnityEngine.TLSModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.TerrainModule">
+     <HintPath>R:\Program Files\2021.3.16f1\Editor\Data\Managed\UnityEngine\UnityEngine.TerrainModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.TerrainPhysicsModule">
+     <HintPath>R:\Program Files\2021.3.16f1\Editor\Data\Managed\UnityEngine\UnityEngine.TerrainPhysicsModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.TextCoreFontEngineModule">
+     <HintPath>R:\Program Files\2021.3.16f1\Editor\Data\Managed\UnityEngine\UnityEngine.TextCoreFontEngineModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.TextCoreTextEngineModule">
+     <HintPath>R:\Program Files\2021.3.16f1\Editor\Data\Managed\UnityEngine\UnityEngine.TextCoreTextEngineModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.TextRenderingModule">
+     <HintPath>R:\Program Files\2021.3.16f1\Editor\Data\Managed\UnityEngine\UnityEngine.TextRenderingModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.TilemapModule">
+     <HintPath>R:\Program Files\2021.3.16f1\Editor\Data\Managed\UnityEngine\UnityEngine.TilemapModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.UIModule">
+     <HintPath>R:\Program Files\2021.3.16f1\Editor\Data\Managed\UnityEngine\UnityEngine.UIModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.UIElementsModule">
+     <HintPath>R:\Program Files\2021.3.16f1\Editor\Data\Managed\UnityEngine\UnityEngine.UIElementsModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.UIElementsNativeModule">
+     <HintPath>R:\Program Files\2021.3.16f1\Editor\Data\Managed\UnityEngine\UnityEngine.UIElementsNativeModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.UNETModule">
+     <HintPath>R:\Program Files\2021.3.16f1\Editor\Data\Managed\UnityEngine\UnityEngine.UNETModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.UmbraModule">
+     <HintPath>R:\Program Files\2021.3.16f1\Editor\Data\Managed\UnityEngine\UnityEngine.UmbraModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.UnityAnalyticsModule">
+     <HintPath>R:\Program Files\2021.3.16f1\Editor\Data\Managed\UnityEngine\UnityEngine.UnityAnalyticsModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.UnityAnalyticsCommonModule">
+     <HintPath>R:\Program Files\2021.3.16f1\Editor\Data\Managed\UnityEngine\UnityEngine.UnityAnalyticsCommonModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.UnityConnectModule">
+     <HintPath>R:\Program Files\2021.3.16f1\Editor\Data\Managed\UnityEngine\UnityEngine.UnityConnectModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.UnityCurlModule">
+     <HintPath>R:\Program Files\2021.3.16f1\Editor\Data\Managed\UnityEngine\UnityEngine.UnityCurlModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.UnityTestProtocolModule">
+     <HintPath>R:\Program Files\2021.3.16f1\Editor\Data\Managed\UnityEngine\UnityEngine.UnityTestProtocolModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.UnityWebRequestModule">
+     <HintPath>R:\Program Files\2021.3.16f1\Editor\Data\Managed\UnityEngine\UnityEngine.UnityWebRequestModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.UnityWebRequestAssetBundleModule">
+     <HintPath>R:\Program Files\2021.3.16f1\Editor\Data\Managed\UnityEngine\UnityEngine.UnityWebRequestAssetBundleModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.UnityWebRequestAudioModule">
+     <HintPath>R:\Program Files\2021.3.16f1\Editor\Data\Managed\UnityEngine\UnityEngine.UnityWebRequestAudioModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.UnityWebRequestTextureModule">
+     <HintPath>R:\Program Files\2021.3.16f1\Editor\Data\Managed\UnityEngine\UnityEngine.UnityWebRequestTextureModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.UnityWebRequestWWWModule">
+     <HintPath>R:\Program Files\2021.3.16f1\Editor\Data\Managed\UnityEngine\UnityEngine.UnityWebRequestWWWModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.VFXModule">
+     <HintPath>R:\Program Files\2021.3.16f1\Editor\Data\Managed\UnityEngine\UnityEngine.VFXModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.VRModule">
+     <HintPath>R:\Program Files\2021.3.16f1\Editor\Data\Managed\UnityEngine\UnityEngine.VRModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.VehiclesModule">
+     <HintPath>R:\Program Files\2021.3.16f1\Editor\Data\Managed\UnityEngine\UnityEngine.VehiclesModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.VideoModule">
+     <HintPath>R:\Program Files\2021.3.16f1\Editor\Data\Managed\UnityEngine\UnityEngine.VideoModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.WindModule">
+     <HintPath>R:\Program Files\2021.3.16f1\Editor\Data\Managed\UnityEngine\UnityEngine.WindModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.XRModule">
+     <HintPath>R:\Program Files\2021.3.16f1\Editor\Data\Managed\UnityEngine\UnityEngine.XRModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEditor">
+     <HintPath>R:\Program Files\2021.3.16f1\Editor\Data\Managed\UnityEngine\UnityEditor.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEditor.CoreModule">
+     <HintPath>R:\Program Files\2021.3.16f1\Editor\Data\Managed\UnityEngine\UnityEditor.CoreModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEditor.DeviceSimulatorModule">
+     <HintPath>R:\Program Files\2021.3.16f1\Editor\Data\Managed\UnityEngine\UnityEditor.DeviceSimulatorModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEditor.DiagnosticsModule">
+     <HintPath>R:\Program Files\2021.3.16f1\Editor\Data\Managed\UnityEngine\UnityEditor.DiagnosticsModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEditor.GraphViewModule">
+     <HintPath>R:\Program Files\2021.3.16f1\Editor\Data\Managed\UnityEngine\UnityEditor.GraphViewModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEditor.PackageManagerUIModule">
+     <HintPath>R:\Program Files\2021.3.16f1\Editor\Data\Managed\UnityEngine\UnityEditor.PackageManagerUIModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEditor.QuickSearchModule">
+     <HintPath>R:\Program Files\2021.3.16f1\Editor\Data\Managed\UnityEngine\UnityEditor.QuickSearchModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEditor.SceneTemplateModule">
+     <HintPath>R:\Program Files\2021.3.16f1\Editor\Data\Managed\UnityEngine\UnityEditor.SceneTemplateModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEditor.TextCoreFontEngineModule">
+     <HintPath>R:\Program Files\2021.3.16f1\Editor\Data\Managed\UnityEngine\UnityEditor.TextCoreFontEngineModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEditor.TextCoreTextEngineModule">
+     <HintPath>R:\Program Files\2021.3.16f1\Editor\Data\Managed\UnityEngine\UnityEditor.TextCoreTextEngineModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEditor.UIBuilderModule">
+     <HintPath>R:\Program Files\2021.3.16f1\Editor\Data\Managed\UnityEngine\UnityEditor.UIBuilderModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEditor.UIElementsModule">
+     <HintPath>R:\Program Files\2021.3.16f1\Editor\Data\Managed\UnityEngine\UnityEditor.UIElementsModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEditor.UIElementsSamplesModule">
+     <HintPath>R:\Program Files\2021.3.16f1\Editor\Data\Managed\UnityEngine\UnityEditor.UIElementsSamplesModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEditor.UIServiceModule">
+     <HintPath>R:\Program Files\2021.3.16f1\Editor\Data\Managed\UnityEngine\UnityEditor.UIServiceModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEditor.UnityConnectModule">
+     <HintPath>R:\Program Files\2021.3.16f1\Editor\Data\Managed\UnityEngine\UnityEditor.UnityConnectModule.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.VisualScripting.Antlr3.Runtime">
+     <HintPath>R:\Projects\Weightlifter runner\Library\PackageCache\com.unity.visualscripting@1.7.8\Runtime\VisualScripting.Flow\Dependencies\NCalc\Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
+     </Reference>
+     <Reference Include="ReportGeneratorMerged">
+     <HintPath>R:\Projects\Weightlifter runner\Library\PackageCache\com.unity.testtools.codecoverage@1.2.2\lib\ReportGenerator\ReportGeneratorMerged.dll</HintPath>
+     </Reference>
+     <Reference Include="Newtonsoft.Json">
+     <HintPath>R:\Projects\Weightlifter runner\Library\PackageCache\com.unity.nuget.newtonsoft-json@3.0.2\Runtime\Newtonsoft.Json.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.Android.Types">
+     <HintPath>R:\Program Files\2021.3.16f1\Editor\Data\PlaybackEngines\AndroidPlayer\Unity.Android.Types.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.Android.Gradle">
+     <HintPath>R:\Program Files\2021.3.16f1\Editor\Data\PlaybackEngines\AndroidPlayer\Unity.Android.Gradle.dll</HintPath>
+     </Reference>
+     <Reference Include="netstandard">
+     <HintPath>R:\Program Files\2021.3.16f1\Editor\Data\NetStandard\ref\2.1.0\netstandard.dll</HintPath>
+     </Reference>
+     <Reference Include="Microsoft.Win32.Primitives">
+     <HintPath>R:\Program Files\2021.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\Microsoft.Win32.Primitives.dll</HintPath>
+     </Reference>
+     <Reference Include="System.AppContext">
+     <HintPath>R:\Program Files\2021.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.AppContext.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Buffers">
+     <HintPath>R:\Program Files\2021.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Buffers.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Collections.Concurrent">
+     <HintPath>R:\Program Files\2021.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Collections.Concurrent.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Collections">
+     <HintPath>R:\Program Files\2021.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Collections.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Collections.NonGeneric">
+     <HintPath>R:\Program Files\2021.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Collections.NonGeneric.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Collections.Specialized">
+     <HintPath>R:\Program Files\2021.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Collections.Specialized.dll</HintPath>
+     </Reference>
+     <Reference Include="System.ComponentModel">
+     <HintPath>R:\Program Files\2021.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.ComponentModel.dll</HintPath>
+     </Reference>
+     <Reference Include="System.ComponentModel.EventBasedAsync">
+     <HintPath>R:\Program Files\2021.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.ComponentModel.EventBasedAsync.dll</HintPath>
+     </Reference>
+     <Reference Include="System.ComponentModel.Primitives">
+     <HintPath>R:\Program Files\2021.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.ComponentModel.Primitives.dll</HintPath>
+     </Reference>
+     <Reference Include="System.ComponentModel.TypeConverter">
+     <HintPath>R:\Program Files\2021.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.ComponentModel.TypeConverter.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Console">
+     <HintPath>R:\Program Files\2021.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Console.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Data.Common">
+     <HintPath>R:\Program Files\2021.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Data.Common.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Diagnostics.Contracts">
+     <HintPath>R:\Program Files\2021.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Diagnostics.Contracts.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Diagnostics.Debug">
+     <HintPath>R:\Program Files\2021.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Diagnostics.Debug.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Diagnostics.FileVersionInfo">
+     <HintPath>R:\Program Files\2021.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Diagnostics.FileVersionInfo.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Diagnostics.Process">
+     <HintPath>R:\Program Files\2021.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Diagnostics.Process.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Diagnostics.StackTrace">
+     <HintPath>R:\Program Files\2021.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Diagnostics.StackTrace.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Diagnostics.TextWriterTraceListener">
+     <HintPath>R:\Program Files\2021.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Diagnostics.TextWriterTraceListener.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Diagnostics.Tools">
+     <HintPath>R:\Program Files\2021.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Diagnostics.Tools.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Diagnostics.TraceSource">
+     <HintPath>R:\Program Files\2021.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Diagnostics.TraceSource.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Diagnostics.Tracing">
+     <HintPath>R:\Program Files\2021.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Diagnostics.Tracing.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Drawing.Primitives">
+     <HintPath>R:\Program Files\2021.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Drawing.Primitives.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Dynamic.Runtime">
+     <HintPath>R:\Program Files\2021.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Dynamic.Runtime.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Globalization.Calendars">
+     <HintPath>R:\Program Files\2021.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Globalization.Calendars.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Globalization">
+     <HintPath>R:\Program Files\2021.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Globalization.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Globalization.Extensions">
+     <HintPath>R:\Program Files\2021.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Globalization.Extensions.dll</HintPath>
+     </Reference>
+     <Reference Include="System.IO.Compression">
+     <HintPath>R:\Program Files\2021.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.IO.Compression.dll</HintPath>
+     </Reference>
+     <Reference Include="System.IO.Compression.ZipFile">
+     <HintPath>R:\Program Files\2021.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.IO.Compression.ZipFile.dll</HintPath>
+     </Reference>
+     <Reference Include="System.IO">
+     <HintPath>R:\Program Files\2021.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.IO.dll</HintPath>
+     </Reference>
+     <Reference Include="System.IO.FileSystem">
+     <HintPath>R:\Program Files\2021.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.IO.FileSystem.dll</HintPath>
+     </Reference>
+     <Reference Include="System.IO.FileSystem.DriveInfo">
+     <HintPath>R:\Program Files\2021.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.IO.FileSystem.DriveInfo.dll</HintPath>
+     </Reference>
+     <Reference Include="System.IO.FileSystem.Primitives">
+     <HintPath>R:\Program Files\2021.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.IO.FileSystem.Primitives.dll</HintPath>
+     </Reference>
+     <Reference Include="System.IO.FileSystem.Watcher">
+     <HintPath>R:\Program Files\2021.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.IO.FileSystem.Watcher.dll</HintPath>
+     </Reference>
+     <Reference Include="System.IO.IsolatedStorage">
+     <HintPath>R:\Program Files\2021.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.IO.IsolatedStorage.dll</HintPath>
+     </Reference>
+     <Reference Include="System.IO.MemoryMappedFiles">
+     <HintPath>R:\Program Files\2021.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.IO.MemoryMappedFiles.dll</HintPath>
+     </Reference>
+     <Reference Include="System.IO.Pipes">
+     <HintPath>R:\Program Files\2021.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.IO.Pipes.dll</HintPath>
+     </Reference>
+     <Reference Include="System.IO.UnmanagedMemoryStream">
+     <HintPath>R:\Program Files\2021.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.IO.UnmanagedMemoryStream.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Linq">
+     <HintPath>R:\Program Files\2021.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Linq.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Linq.Expressions">
+     <HintPath>R:\Program Files\2021.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Linq.Expressions.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Linq.Parallel">
+     <HintPath>R:\Program Files\2021.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Linq.Parallel.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Linq.Queryable">
+     <HintPath>R:\Program Files\2021.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Linq.Queryable.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Memory">
+     <HintPath>R:\Program Files\2021.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Memory.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Net.Http">
+     <HintPath>R:\Program Files\2021.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Net.Http.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Net.NameResolution">
+     <HintPath>R:\Program Files\2021.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Net.NameResolution.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Net.NetworkInformation">
+     <HintPath>R:\Program Files\2021.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Net.NetworkInformation.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Net.Ping">
+     <HintPath>R:\Program Files\2021.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Net.Ping.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Net.Primitives">
+     <HintPath>R:\Program Files\2021.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Net.Primitives.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Net.Requests">
+     <HintPath>R:\Program Files\2021.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Net.Requests.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Net.Security">
+     <HintPath>R:\Program Files\2021.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Net.Security.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Net.Sockets">
+     <HintPath>R:\Program Files\2021.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Net.Sockets.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Net.WebHeaderCollection">
+     <HintPath>R:\Program Files\2021.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Net.WebHeaderCollection.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Net.WebSockets.Client">
+     <HintPath>R:\Program Files\2021.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Net.WebSockets.Client.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Net.WebSockets">
+     <HintPath>R:\Program Files\2021.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Net.WebSockets.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Numerics.Vectors">
+     <HintPath>R:\Program Files\2021.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Numerics.Vectors.dll</HintPath>
+     </Reference>
+     <Reference Include="System.ObjectModel">
+     <HintPath>R:\Program Files\2021.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.ObjectModel.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Reflection.DispatchProxy">
+     <HintPath>R:\Program Files\2021.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Reflection.DispatchProxy.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Reflection">
+     <HintPath>R:\Program Files\2021.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Reflection.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Reflection.Emit">
+     <HintPath>R:\Program Files\2021.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Reflection.Emit.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Reflection.Emit.ILGeneration">
+     <HintPath>R:\Program Files\2021.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Reflection.Emit.ILGeneration.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Reflection.Emit.Lightweight">
+     <HintPath>R:\Program Files\2021.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Reflection.Emit.Lightweight.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Reflection.Extensions">
+     <HintPath>R:\Program Files\2021.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Reflection.Extensions.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Reflection.Primitives">
+     <HintPath>R:\Program Files\2021.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Reflection.Primitives.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Resources.Reader">
+     <HintPath>R:\Program Files\2021.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Resources.Reader.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Resources.ResourceManager">
+     <HintPath>R:\Program Files\2021.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Resources.ResourceManager.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Resources.Writer">
+     <HintPath>R:\Program Files\2021.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Resources.Writer.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Runtime.CompilerServices.VisualC">
+     <HintPath>R:\Program Files\2021.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Runtime.CompilerServices.VisualC.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Runtime">
+     <HintPath>R:\Program Files\2021.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Runtime.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Runtime.Extensions">
+     <HintPath>R:\Program Files\2021.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Runtime.Extensions.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Runtime.Handles">
+     <HintPath>R:\Program Files\2021.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Runtime.Handles.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Runtime.InteropServices">
+     <HintPath>R:\Program Files\2021.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Runtime.InteropServices.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Runtime.InteropServices.RuntimeInformation">
+     <HintPath>R:\Program Files\2021.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Runtime.InteropServices.RuntimeInformation.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Runtime.Numerics">
+     <HintPath>R:\Program Files\2021.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Runtime.Numerics.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Runtime.Serialization.Formatters">
+     <HintPath>R:\Program Files\2021.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Runtime.Serialization.Formatters.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Runtime.Serialization.Json">
+     <HintPath>R:\Program Files\2021.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Runtime.Serialization.Json.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Runtime.Serialization.Primitives">
+     <HintPath>R:\Program Files\2021.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Runtime.Serialization.Primitives.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Runtime.Serialization.Xml">
+     <HintPath>R:\Program Files\2021.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Runtime.Serialization.Xml.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Security.Claims">
+     <HintPath>R:\Program Files\2021.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Security.Claims.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Security.Cryptography.Algorithms">
+     <HintPath>R:\Program Files\2021.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Security.Cryptography.Algorithms.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Security.Cryptography.Csp">
+     <HintPath>R:\Program Files\2021.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Security.Cryptography.Csp.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Security.Cryptography.Encoding">
+     <HintPath>R:\Program Files\2021.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Security.Cryptography.Encoding.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Security.Cryptography.Primitives">
+     <HintPath>R:\Program Files\2021.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Security.Cryptography.Primitives.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Security.Cryptography.X509Certificates">
+     <HintPath>R:\Program Files\2021.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Security.Cryptography.X509Certificates.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Security.Principal">
+     <HintPath>R:\Program Files\2021.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Security.Principal.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Security.SecureString">
+     <HintPath>R:\Program Files\2021.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Security.SecureString.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Text.Encoding">
+     <HintPath>R:\Program Files\2021.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Text.Encoding.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Text.Encoding.Extensions">
+     <HintPath>R:\Program Files\2021.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Text.Encoding.Extensions.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Text.RegularExpressions">
+     <HintPath>R:\Program Files\2021.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Text.RegularExpressions.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Threading">
+     <HintPath>R:\Program Files\2021.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Threading.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Threading.Overlapped">
+     <HintPath>R:\Program Files\2021.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Threading.Overlapped.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Threading.Tasks">
+     <HintPath>R:\Program Files\2021.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Threading.Tasks.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Threading.Tasks.Extensions">
+     <HintPath>R:\Program Files\2021.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Threading.Tasks.Extensions.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Threading.Tasks.Parallel">
+     <HintPath>R:\Program Files\2021.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Threading.Tasks.Parallel.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Threading.Thread">
+     <HintPath>R:\Program Files\2021.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Threading.Thread.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Threading.ThreadPool">
+     <HintPath>R:\Program Files\2021.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Threading.ThreadPool.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Threading.Timer">
+     <HintPath>R:\Program Files\2021.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Threading.Timer.dll</HintPath>
+     </Reference>
+     <Reference Include="System.ValueTuple">
+     <HintPath>R:\Program Files\2021.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.ValueTuple.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Xml.ReaderWriter">
+     <HintPath>R:\Program Files\2021.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Xml.ReaderWriter.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Xml.XDocument">
+     <HintPath>R:\Program Files\2021.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Xml.XDocument.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Xml.XmlDocument">
+     <HintPath>R:\Program Files\2021.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Xml.XmlDocument.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Xml.XmlSerializer">
+     <HintPath>R:\Program Files\2021.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Xml.XmlSerializer.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Xml.XPath">
+     <HintPath>R:\Program Files\2021.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Xml.XPath.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Xml.XPath.XDocument">
+     <HintPath>R:\Program Files\2021.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Xml.XPath.XDocument.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Runtime.InteropServices.WindowsRuntime">
+     <HintPath>R:\Program Files\2021.3.16f1\Editor\Data\NetStandard\Extensions\2.0.0\System.Runtime.InteropServices.WindowsRuntime.dll</HintPath>
+     </Reference>
+     <Reference Include="mscorlib">
+     <HintPath>R:\Program Files\2021.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\mscorlib.dll</HintPath>
+     </Reference>
+     <Reference Include="System.ComponentModel.Composition">
+     <HintPath>R:\Program Files\2021.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.ComponentModel.Composition.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Core">
+     <HintPath>R:\Program Files\2021.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Core.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Data">
+     <HintPath>R:\Program Files\2021.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Data.dll</HintPath>
+     </Reference>
+     <Reference Include="System">
+     <HintPath>R:\Program Files\2021.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Drawing">
+     <HintPath>R:\Program Files\2021.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Drawing.dll</HintPath>
+     </Reference>
+     <Reference Include="System.IO.Compression.FileSystem">
+     <HintPath>R:\Program Files\2021.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.IO.Compression.FileSystem.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Net">
+     <HintPath>R:\Program Files\2021.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Net.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Numerics">
+     <HintPath>R:\Program Files\2021.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Numerics.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Runtime.Serialization">
+     <HintPath>R:\Program Files\2021.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Runtime.Serialization.dll</HintPath>
+     </Reference>
+     <Reference Include="System.ServiceModel.Web">
+     <HintPath>R:\Program Files\2021.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.ServiceModel.Web.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Transactions">
+     <HintPath>R:\Program Files\2021.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Transactions.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Web">
+     <HintPath>R:\Program Files\2021.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Web.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Windows">
+     <HintPath>R:\Program Files\2021.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Windows.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Xml">
+     <HintPath>R:\Program Files\2021.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Xml.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Xml.Linq">
+     <HintPath>R:\Program Files\2021.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Xml.Linq.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Xml.Serialization">
+     <HintPath>R:\Program Files\2021.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Xml.Serialization.dll</HintPath>
+     </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="Unity.VisualScripting.Flow.Editor.csproj">
+      <Project>{e177c708-cd99-faee-e4d3-ae451af2cded}</Project>
+      <Name>Unity.VisualScripting.Flow.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.VSCode.Editor.csproj">
+      <Project>{d38be895-668e-be93-e547-9a7e5e950fd0}</Project>
+      <Name>Unity.VSCode.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.TextMeshPro.Editor.csproj">
+      <Project>{ab0ac01f-a46b-97c6-942c-ee2f42cb6194}</Project>
+      <Name>Unity.TextMeshPro.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Performance.Profile-Analyzer.Editor.csproj">
+      <Project>{70846784-4707-f743-f2c6-03fe6dd6e300}</Project>
+      <Name>Unity.Performance.Profile-Analyzer.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.csproj">
+      <Project>{3e72cee2-24e6-33b0-d212-e116faa6b108}</Project>
+      <Name>Unity.TestTools.CodeCoverage.Editor.OpenCover.Model</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.VisualStudio.Editor.csproj">
+      <Project>{96557693-0d08-aab4-ef7b-ab60e227faea}</Project>
+      <Name>Unity.VisualStudio.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Timeline.csproj">
+      <Project>{1230cd67-7759-5272-15cb-ceb9da4292fc}</Project>
+      <Name>Unity.Timeline</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.VisualScripting.Core.Editor.csproj">
+      <Project>{44d260a2-1519-62d9-b3f9-cab37ce2c4cf}</Project>
+      <Name>Unity.VisualScripting.Core.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.TextMeshPro.csproj">
+      <Project>{fad41727-8328-b345-94b0-9ad11c00af63}</Project>
+      <Name>Unity.TextMeshPro</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.VisualScripting.State.Editor.csproj">
+      <Project>{a3b0a92d-bd3d-c84f-03db-c1809f94441d}</Project>
+      <Name>Unity.VisualScripting.State.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.VisualScripting.SettingsProvider.Editor.csproj">
+      <Project>{7096d103-b434-6ed1-20b2-a9c08b725110}</Project>
+      <Name>Unity.VisualScripting.SettingsProvider.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.csproj">
+      <Project>{33d1e5fd-340c-efed-2c06-a8d321fc2286}</Project>
+      <Name>Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.VisualScripting.Flow.csproj">
+      <Project>{291868f9-d5a0-0fb3-c847-6159f05da3b7}</Project>
+      <Name>Unity.VisualScripting.Flow</Name>
+    </ProjectReference>
+    <ProjectReference Include="UnityEditor.UI.csproj">
+      <Project>{22d8c823-fda5-3f42-2a4a-84425303077a}</Project>
+      <Name>UnityEditor.UI</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.InputSystem.csproj">
+      <Project>{2eb2c2e0-ae7c-75e1-03f8-88990d87c15a}</Project>
+      <Name>Unity.InputSystem</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Rider.Editor.csproj">
+      <Project>{531bf661-0add-d477-3b23-275b32a39736}</Project>
+      <Name>Unity.Rider.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.PlasticSCM.Editor.csproj">
+      <Project>{2069d184-4ca2-47c6-5bb6-c1a37cfea8b8}</Project>
+      <Name>Unity.PlasticSCM.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="UnityEngine.UI.csproj">
+      <Project>{f35c1962-a5ba-1cd2-e0cf-874e76a3466c}</Project>
+      <Name>UnityEngine.UI</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Services.Core.csproj">
+      <Project>{0c9722c0-1263-ca57-f5e5-b606361db172}</Project>
+      <Name>Unity.Services.Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.VisualScripting.Core.csproj">
+      <Project>{2f735350-418b-e527-c051-93c1a61bc5c8}</Project>
+      <Name>Unity.VisualScripting.Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.EditorCoroutines.Editor.csproj">
+      <Project>{810b2847-a742-1605-c1dd-b660d1ed3799}</Project>
+      <Name>Unity.EditorCoroutines.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Services.Core.Analytics.csproj">
+      <Project>{95d0a8f7-7b97-52ee-c3b8-c9fb468eacf3}</Project>
+      <Name>Unity.Services.Core.Analytics</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.VisualScripting.Shared.Editor.csproj">
+      <Project>{53bc9bfd-1f45-e97a-ef78-60dd5548aa26}</Project>
+      <Name>Unity.VisualScripting.Shared.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Services.Core.Environments.csproj">
+      <Project>{393a3b6a-b949-930f-fe9d-b62421d8be38}</Project>
+      <Name>Unity.Services.Core.Environments</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Timeline.Editor.csproj">
+      <Project>{5c96d6a0-d811-9d34-03d7-de1e15ef62e4}</Project>
+      <Name>Unity.Timeline.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.TestTools.CodeCoverage.Editor.csproj">
+      <Project>{9d8fdddb-3c11-8016-6c31-284f8868ad97}</Project>
+      <Name>Unity.TestTools.CodeCoverage.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.VisualScripting.State.csproj">
+      <Project>{5bec7283-97b8-6cb1-d7bd-b111a4c729b2}</Project>
+      <Name>Unity.VisualScripting.State</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
