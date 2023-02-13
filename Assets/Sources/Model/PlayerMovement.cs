@@ -12,7 +12,7 @@ namespace Sources.Model
             _player = player;
         }
 
-        public float XPosition => _player.Position.x;
+        public Vector3 Position => _player.Position;
 
         public void MovePassage(float targetXPosition)
         {

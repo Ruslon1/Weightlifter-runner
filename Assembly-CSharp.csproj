@@ -53,6 +53,7 @@
      <Compile Include="Assets\Sources\View\ObstacleTransformableView.cs" />
      <Compile Include="Assets\Pakages\Epic Toon FX\Demo\Scripts\VFX Library\ParticleEffectsLibrary.cs" />
      <Compile Include="Assets\Pakages\Epic Toon FX\Demo\Scripts\ETFXMouseOrbit.cs" />
+     <Compile Include="Assets\Sources\PlayerTraction.cs" />
      <Compile Include="Assets\Sources\View\TransformableView.cs" />
      <Compile Include="Assets\Pakages\Epic Toon FX\Demo\Scripts\ETFXTarget.cs" />
      <Compile Include="Assets\Pakages\Epic Toon FX\Scripts\ETFXRotation.cs" />

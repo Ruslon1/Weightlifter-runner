@@ -17,7 +17,7 @@ namespace Sources.Input
             _playerMovement = playerMovement;
         }
 
-        private Camera _camera => Camera.main;
+        private Camera Camera => Camera.main;
 
         public void OnEnable()
         {
@@ -37,8 +37,8 @@ namespace Sources.Input
         private void Tracking(InputAction.CallbackContext context)
         {
             Vector3 currentMousePosition = context.ReadValue<Vector2>();
-            currentMousePosition.z = 10;
-            float targetXPosition = _camera.ScreenToWorldPoint(currentMousePosition).x;
+            currentMousePosition.z = Vector3.Distance(_playerMovement.Position, Camera.transform.position);
+            float targetXPosition = Camera.ScreenToWorldPoint(currentMousePosition).x;
 
             if (CanMove(targetXPosition))
                 _playerMovement.MovePassage(targetXPosition);
@@ -46,7 +46,7 @@ namespace Sources.Input
 
         private bool CanMove(float targetX)
         {
-            return targetX - _playerMovement.XPosition is > -1.5f and < 1.5f;
+            return targetX - _playerMovement.Position.x is > -1.5f and < 1.5f;
         }
     }
 }
