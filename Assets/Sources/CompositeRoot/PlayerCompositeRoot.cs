@@ -10,28 +10,33 @@ namespace Sources.CompositeRoot
     {
         [SerializeField] private PlayerTransformableView _playerTransformableView;
         [SerializeField] private Vector3 _defaultPlayerPosition;
+        [SerializeField] private Animator _animator;
 
         private Player _player;
         private PlayerMovement _playerMovement;
         private PlayerInputRouter _playerInputRouter;
+        private PlayerAnimation _playerAnimation;
 
         public override void Compose()
         {
             _player = new Player(_defaultPlayerPosition, Quaternion.identity);
             _playerMovement = new PlayerMovement(_player);
             _playerInputRouter = new PlayerInputRouter(_playerMovement);
-
+            _playerAnimation = new PlayerAnimation(_animator, _player);
+                
             _playerTransformableView.Init(_player);
         }
 
         private void OnEnable()
         {
             _playerInputRouter.OnEnable();
+            _playerAnimation.OnEnable();
         }
 
         private void OnDisable()
         {
             _playerInputRouter.OnDisable();
+            _playerAnimation.OnDisable();
         }
 
         private void Update()
