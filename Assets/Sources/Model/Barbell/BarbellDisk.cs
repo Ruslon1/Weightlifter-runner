@@ -1,4 +1,6 @@
-﻿using UnityEngine;
+﻿using System;
+using UnityEngine;
+using Object = UnityEngine.Object;
 
 namespace Sources.Model.Barbell
 {
@@ -8,13 +10,17 @@ namespace Sources.Model.Barbell
         private readonly Sources.Barbell _barbell;
         private bool _onBarbell;
         private SpawnPoint _spawnPoint;
+        private readonly GameObject _instance;
 
-        public BarbellDisk(Quaternion rotation, Vector3 position, Transformable player, Sources.Barbell barbell) 
+        public BarbellDisk(Quaternion rotation, Vector3 position, Transformable player, Sources.Barbell barbell, GameObject instance)
             : base(rotation, position)
         {
             _player = player;
             _barbell = barbell;
+            _instance = instance;
         }
+
+        public event Action Explosion;
 
         public void TriggerEnter(Collider collider)
         {
@@ -35,8 +41,22 @@ namespace Sources.Model.Barbell
 
         private void AddDiskToBarbell()
         {
-            _spawnPoint = _barbell.GetSpawnPointForNewDisk(this);
+            try
+            {
+                _spawnPoint = _barbell.GetSpawnPointForNewDisk(this);
+            }
+            catch (Exception e)
+            {
+                Explosion?.Invoke();
+                Disable();
+                return;
+            }
             _onBarbell = true;
+        }
+
+        private void Disable()
+        {
+            _instance.SetActive(false);
         }
     }
 }

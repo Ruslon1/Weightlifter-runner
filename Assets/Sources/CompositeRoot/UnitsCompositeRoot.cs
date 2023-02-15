@@ -14,10 +14,10 @@ namespace Sources.CompositeRoot
         [SerializeField] private List<TransformableView> _unitPrefabs;
         [SerializeField] private PlayerTransformableView _playerTransformableView;
         [SerializeField] private Barbell _barbell;
-        
+
         private IFactory _unitFactory;
         private List<TransformableView> _units;
-        private List<BarbellDisk> _barbellDisks = new();
+        private readonly List<BarbellDisk> _barbellDisks = new();
 
         public override void Compose()
         {
@@ -38,11 +38,14 @@ namespace Sources.CompositeRoot
                 if (unit is BarbellDiskTransformableView view)
                 {
                     var physicEventBroadCaster = view.GetComponent<BarbellDiskPhysicsEventBroadcaster>();
-                    var model = new BarbellDisk(view.transform.rotation, view.transform.position, _playerTransformableView.Model, _barbell);
-                    
+                    var model = new BarbellDisk(view.transform.rotation, view.transform.position,
+                        _playerTransformableView.Model, _barbell, view.gameObject);
+                    var effectList = view.GetComponentsInChildren<ParticleSystem>();
+                    var modelExplosion = new BarbellDiskExplosion(model, effectList);
+
                     view.Init(model);
                     physicEventBroadCaster.Init(model);
-                    
+
                     _barbellDisks.Add(model);
                 }
             }
