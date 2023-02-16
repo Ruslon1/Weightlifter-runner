@@ -29,7 +29,7 @@ namespace Sources.Model.Barbell
         {
             foreach (var effect in _explosionEffects)
             {
-                effect.transform.SetParent(effect.transform);
+                effect.transform.parent = null;
                 effect.Play();
             }
             
