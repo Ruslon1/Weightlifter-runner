@@ -735,7 +735,7 @@ namespace PolyPerfect
             if (movementStates.Length <= 0)
             {
                 Debug.Log("Movement states length is 0");
-                this.enabled = false;
+                enabled = false;
                 return;
             }
             int fastestMovementState = 0;

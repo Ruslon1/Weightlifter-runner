@@ -41,23 +41,23 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
-     <Compile Include="Assets\Plugins\TypedScenes\Samples\Scripts\StringHandler.cs" />
-     <Compile Include="Assets\Plugins\TypedScenes\Core\ScenePostprocessor.cs" />
-     <Compile Include="Assets\Plugins\TypedScenes\Core\TypedSceneSettings.cs" />
-     <Compile Include="Assets\Plugins\TypedScenes\Core\AnalyzableScene.cs" />
+     <Compile Include="Assets\Plugins\TypedScenes\Core\ITypedAwakeHandler.cs" />
+     <Compile Include="Assets\Plugins\TypedScenes\Samples\Scripts\IntHandler.cs" />
      <Compile Include="Assets\Plugins\TypedScenes\Core\TypedSceneStorage.cs" />
+     <Compile Include="Assets\Plugins\TypedScenes\Core\TypedScene.cs" />
+     <Compile Include="Assets\Plugins\TypedScenes\Core\LoadingProcessor.cs" />
+     <Compile Include="Assets\Plugins\TypedScenes\Samples\Scripts\CustomClassHandler.cs" />
+     <Compile Include="Assets\Plugins\TypedScenes\Core\TypedProcessor.cs" />
+     <Compile Include="Assets\Plugins\TypedScenes\Core\SceneAnalyzer.cs" />
+     <Compile Include="Assets\Plugins\TypedScenes\Samples\Scripts\StringHandler.cs" />
+     <Compile Include="Assets\Plugins\TypedScenes\Core\TypedSceneGenerator.cs" />
+     <Compile Include="Assets\Plugins\TypedScenes\Core\ScenePostprocessor.cs" />
+     <Compile Include="Assets\Plugins\TypedScenes\Samples\Scripts\MultiHandler.cs" />
+     <Compile Include="Assets\Plugins\TypedScenes\Core\AnalyzableScene.cs" />
+     <Compile Include="Assets\Plugins\TypedScenes\Core\TypedSceneValidator.cs" />
+     <Compile Include="Assets\Plugins\TypedScenes\Core\TypedSceneSettings.cs" />
      <Compile Include="Assets\Plugins\TypedScenes\Samples\Scripts\ExampleSceneLoadModel.cs" />
      <Compile Include="Assets\Plugins\TypedScenes\Core\ISceneLoadHandler.cs" />
-     <Compile Include="Assets\Plugins\TypedScenes\Core\TypedSceneValidator.cs" />
-     <Compile Include="Assets\Plugins\TypedScenes\Core\LoadingProcessor.cs" />
-     <Compile Include="Assets\Plugins\TypedScenes\Core\ITypedAwakeHandler.cs" />
-     <Compile Include="Assets\Plugins\TypedScenes\Samples\Scripts\CustomClassHandler.cs" />
-     <Compile Include="Assets\Plugins\TypedScenes\Samples\Scripts\IntHandler.cs" />
-     <Compile Include="Assets\Plugins\TypedScenes\Samples\Scripts\MultiHandler.cs" />
-     <Compile Include="Assets\Plugins\TypedScenes\Core\SceneAnalyzer.cs" />
-     <Compile Include="Assets\Plugins\TypedScenes\Core\TypedScene.cs" />
-     <Compile Include="Assets\Plugins\TypedScenes\Core\TypedProcessor.cs" />
-     <Compile Include="Assets\Plugins\TypedScenes\Core\TypedSceneGenerator.cs" />
      <Folder Include="Assets\Plugins\TypedScenes\Core" />
      <Folder Include="Assets\Plugins\TypedScenes" />
      <Folder Include="Assets\Plugins" />

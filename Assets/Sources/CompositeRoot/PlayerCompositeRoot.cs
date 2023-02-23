@@ -1,6 +1,7 @@
 ﻿using System;
 using Sources.Input;
 using Sources.Model;
+using Sources.Model.Player;
 using Sources.View;
 using UnityEngine;
 
@@ -11,6 +12,7 @@ namespace Sources.CompositeRoot
         [SerializeField] private PlayerTransformableView _playerTransformableView;
         [SerializeField] private Vector3 _defaultPlayerPosition;
         [SerializeField] private Animator _animator;
+        [SerializeField] private PhysicsEventBroadcaster _physicsEventBroadcaster;
 
         private Player _player;
         private PlayerMovement _playerMovement;
@@ -23,7 +25,8 @@ namespace Sources.CompositeRoot
             _playerMovement = new PlayerMovement(_player);
             _playerInputRouter = new PlayerInputRouter(_playerMovement);
             _playerAnimation = new PlayerAnimation(_animator, _player);
-                
+            
+            _physicsEventBroadcaster.Init(_player);
             _playerTransformableView.Init(_player);
         }
 

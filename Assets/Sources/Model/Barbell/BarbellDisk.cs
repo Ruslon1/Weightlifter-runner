@@ -22,9 +22,9 @@ namespace Sources.Model.Barbell
 
         public event Action Explosion;
 
-        public void TriggerEnter(Collider collider)
+        public override void TriggerEnter(Collider collider)
         {
-            if (collider.gameObject.CompareTag(nameof(Player)))
+            if (collider.gameObject.CompareTag(nameof(Player.Player)))
             {
                 Debug.Log("Player");
                 AddDiskToBarbell();

@@ -28,7 +28,7 @@ public class PolyIk : MonoBehaviour
 
         if(!animator.isHuman)
         {
-            this.enabled = false;
+            enabled = false;
             Debug.Log("The rig needs to be humanoid for this script to work");
         }
     }

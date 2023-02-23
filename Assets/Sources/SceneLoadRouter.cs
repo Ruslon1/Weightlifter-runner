@@ -1,10 +1,13 @@
 using IJunior.TypedScenes;
 using UnityEngine;
 
-public class SceneLoadRouter : MonoBehaviour
+namespace Sources
 {
-    public void LoadGame(int levelIndex)
+    public class SceneLoadRouter : MonoBehaviour
     {
-        Main.Load(levelIndex);
+        public void LoadGame(int levelIndex)
+        {
+            Main.Load(levelIndex);
+        }
     }
 }

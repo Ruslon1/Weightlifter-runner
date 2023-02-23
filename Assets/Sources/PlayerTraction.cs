@@ -1,17 +1,19 @@
-using System;
 using Sources.View;
 using UnityEngine;
 
-public class PlayerTraction : MonoBehaviour
+namespace Sources
 {
-    [SerializeField] private PlayerTransformableView _playerView;
-    [SerializeField] private Vector3 _offset;
-
-    private void LateUpdate()
+    public class PlayerTraction : MonoBehaviour
     {
-        Vector3 targetPosition = _playerView.transform.position + _offset;
-        targetPosition.x = transform.position.x;
+        [SerializeField] private PlayerTransformableView _playerView;
+        [SerializeField] private Vector3 _offset;
+
+        private void LateUpdate()
+        {
+            Vector3 targetPosition = _playerView.transform.position + _offset;
+            targetPosition.x = transform.position.x;
         
-        transform.position = targetPosition;
+            transform.position = targetPosition;
+        }
     }
 }

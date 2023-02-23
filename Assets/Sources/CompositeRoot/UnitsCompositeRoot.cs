@@ -35,7 +35,7 @@ namespace Sources.CompositeRoot
             {
                 if (unit is BarbellDiskTransformableView view)
                 {
-                    var physicEventBroadCaster = view.GetComponent<BarbellDiskPhysicsEventBroadcaster>();
+                    var physicEventBroadCaster = view.GetComponent<PhysicsEventBroadcaster>();
                     var model = new BarbellDisk(view.transform.rotation, view.transform.position,
                         _playerTransformableView.Model, _barbell, view.gameObject);
                     var effectList = view.GetComponentsInChildren<ParticleSystem>();

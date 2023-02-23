@@ -1,11 +1,12 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
-public class Level : MonoBehaviour
+namespace Sources
 {
-    public SpawnPoint[] GetSpawnPoints()
+    public class Level : MonoBehaviour
     {
-        return GetComponentsInChildren<SpawnPoint>();
+        public SpawnPoint[] GetSpawnPoints()
+        {
+            return GetComponentsInChildren<SpawnPoint>();
+        }
     }
 }

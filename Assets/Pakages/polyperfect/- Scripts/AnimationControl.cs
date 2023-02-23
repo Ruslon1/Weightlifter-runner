@@ -24,9 +24,9 @@ namespace PolyPerfect
 
             if (currentAnimation != "")
             {
-                this.GetComponent<Animator>().SetBool(currentAnimation, false);
+                GetComponent<Animator>().SetBool(currentAnimation, false);
             }
-            this.GetComponent<Animator>().SetBool(animationName, true);
+            GetComponent<Animator>().SetBool(animationName, true);
             currentAnimation = animationName;
         }
 
@@ -35,7 +35,7 @@ namespace PolyPerfect
 
             if (currentAnimation != "")
             {
-                this.GetComponent<Animator>().SetBool(currentAnimation, false);
+                GetComponent<Animator>().SetBool(currentAnimation, false);
             }
 
 
@@ -47,7 +47,7 @@ namespace PolyPerfect
             string animationName = "Death";
             Debug.Log(clipIndex);
 
-            this.GetComponent<Animator>().SetInteger(animationName, clipIndex);
+            GetComponent<Animator>().SetInteger(animationName, clipIndex);
         }
     }
 }
