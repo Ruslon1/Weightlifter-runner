@@ -77,7 +77,7 @@
      <Compile Include="Assets\Sources\Barbell.cs" />
      <Compile Include="Assets\Pakages\Epic Toon FX\Demo\Scripts\ETFXLoopScript.cs" />
      <Compile Include="Assets\Sources\Input\InputAction.cs" />
-     <Compile Include="Assets\Sources\Menu.cs" />
+     <Compile Include="Assets\Sources\UI\Menu.cs" />
      <Compile Include="Assets\Sources\Model\Barbell\BarbellDiskExplosion.cs" />
      <Compile Include="Assets\Sources\Model\Player\PlayerAnimation.cs" />
      <Compile Include="Assets\Sources\SceneLoadRouter.cs" />
@@ -104,6 +104,7 @@
      <Compile Include="Assets\Pakages\polyperfect\- Scripts\AIScripts\AIStats.cs" />
      <Compile Include="Assets\Sources\Model\Player\PlayerMovement.cs" />
      <Compile Include="Assets\Pakages\polyperfect\- Scripts\AIScripts\WanderManager.cs" />
+     <Compile Include="Assets\Sources\UI\FinishUI.cs" />
      <Folder Include="Assets" />
      <Folder Include="Assets\Pakages\Epic Toon FX\Prefabs\Environment\Water\Other" />
      <Folder Include="Assets\Pakages\Epic Toon FX\Sound" />
@@ -359,6 +360,7 @@
      <None Include="Library\PackageCache\com.unity.modules.imageconversion@1.0.0\package.json" />
      <Folder Include="Assets\Pakages\Epic Toon FX\Prefabs\Combat\Missiles\FatBullet" />
      <Folder Include="Assets\Pakages\Epic Toon FX\Prefabs\Combat\Explosions\StarIntenseExplosion" />
+     <Folder Include="Assets\Sources\UI" />
      <Folder Include="Library\PackageCache\com.unity.services.core@1.6.0\Editor" />
      <Folder Include="Library\PackageCache\com.unity.modules.unitywebrequest@1.0.0" />
      <Folder Include="Assets\Pakages\Epic Toon FX\Demo\Missile Prefabs\Shadow" />

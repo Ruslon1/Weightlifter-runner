@@ -7,8 +7,9 @@ namespace Sources.Model.Player
         private readonly Animator _animator;
         private readonly Player _player;
         private static readonly int IsRunning = Animator.StringToHash("isRunning");
-        private static readonly int IsFinishing = Animator.StringToHash("isPunching_Right");
 
+        public static bool FinishAnimationCompleted;
+        
         public PlayerAnimation(Animator animator, Player player)
         {
             _animator = animator;
@@ -37,9 +38,9 @@ namespace Sources.Model.Player
 
         private void OnFinished()
         {
-            Debug.Log("Anim");
             _animator.SetBool(IsRunning, false);
             _animator.SetBool("isPunching_Right", true);
+            _animator.SetTrigger("Finishing");
         }
     }
 }
