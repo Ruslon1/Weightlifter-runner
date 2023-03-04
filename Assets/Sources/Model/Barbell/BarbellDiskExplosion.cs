@@ -1,5 +1,4 @@
-﻿using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
 namespace Sources.Model.Barbell
 {
@@ -32,7 +31,7 @@ namespace Sources.Model.Barbell
                 effect.transform.parent = null;
                 effect.Play();
             }
-            
+
             OnDisable();
         }
     }

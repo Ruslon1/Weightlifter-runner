@@ -4,6 +4,5 @@ namespace Sources.Finish
 {
     public class Finish : MonoBehaviour
     {
-        
     }
 }

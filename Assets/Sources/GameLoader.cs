@@ -10,7 +10,7 @@ namespace Sources
         [SerializeField] private List<Level> _levels;
 
         public int CurrentLevelIndex { get; private set; }
-        
+
         public void OnSceneLoaded(int levelIndex)
         {
             if (levelIndex > _levels.Count)

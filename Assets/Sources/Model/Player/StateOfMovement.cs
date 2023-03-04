@@ -2,6 +2,7 @@
 {
     public enum StateOfMovement
     {
-        RunningForward, Idle
+        RunningForward,
+        Idle
     }
 }

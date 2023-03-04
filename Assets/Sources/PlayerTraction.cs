@@ -10,9 +10,9 @@ namespace Sources
 
         private void LateUpdate()
         {
-            Vector3 targetPosition = _playerView.transform.position + _offset;
+            var targetPosition = _playerView.transform.position + _offset;
             targetPosition.x = transform.position.x;
-        
+
             transform.position = targetPosition;
         }
     }

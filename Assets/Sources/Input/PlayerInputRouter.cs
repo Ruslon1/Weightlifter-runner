@@ -1,6 +1,4 @@
-﻿using Sources.Model;
-using Sources.Model.Player;
-using Unity.VisualScripting;
+﻿using Sources.Model.Player;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
@@ -39,7 +37,7 @@ namespace Sources.Input
         {
             Vector3 currentMousePosition = context.ReadValue<Vector2>();
             currentMousePosition.z = Vector3.Distance(_playerMovement.Position, Camera.transform.position);
-            float targetXPosition = Camera.ScreenToWorldPoint(currentMousePosition).x;
+            var targetXPosition = Camera.ScreenToWorldPoint(currentMousePosition).x;
 
             if (CanMove(targetXPosition))
                 _playerMovement.MovePassage(targetXPosition);

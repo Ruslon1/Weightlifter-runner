@@ -1,42 +1,44 @@
 ﻿using System;
 using UnityEngine;
-using Object = UnityEngine.Object;
 
 namespace Sources.Model.Barbell
 {
     public class BarbellDisk : Unit
     {
-        private readonly Transformable _player;
         private readonly Sources.Barbell _barbell;
+        private readonly GameObject _instance;
+        private readonly Transformable _player;
+        private readonly Rigidbody _rigidbody;
         private bool _onBarbell;
         private SpawnPoint _spawnPoint;
-        private readonly GameObject _instance;
 
-        public BarbellDisk(Quaternion rotation, Vector3 position, Transformable player, Sources.Barbell barbell, GameObject instance)
+        public BarbellDisk(Quaternion rotation, Vector3 position, Transformable player, Sources.Barbell barbell,
+            GameObject instance)
             : base(rotation, position)
         {
             _player = player;
             _barbell = barbell;
             _instance = instance;
+            _rigidbody = _instance.GetComponent<Rigidbody>();
         }
 
         public event Action Explosion;
 
         public override void TriggerEnter(Collider collider)
         {
-            if (collider.gameObject.CompareTag(nameof(Player.Player)))
-            {
-                Debug.Log("Player");
-                AddDiskToBarbell();
-            }
+            if (collider.gameObject.CompareTag(nameof(Player.Player))) AddDiskToBarbell();
         }
 
         public void Update()
         {
-            if (_onBarbell)
-            {
-                Position = _spawnPoint.transform.position;
-            }
+            if (_onBarbell) Position = _spawnPoint.transform.position;
+        }
+
+        public void LoseDisk()
+        {
+            _onBarbell = false;
+            _rigidbody.isKinematic = false;
+            Explosion?.Invoke();
         }
 
         private void AddDiskToBarbell()
@@ -51,6 +53,7 @@ namespace Sources.Model.Barbell
                 Disable();
                 return;
             }
+
             _onBarbell = true;
         }
 

@@ -93,6 +93,8 @@
      <Compile Include="Assets\Pakages\polyperfect\- Scripts\KillSwitch.cs" />
      <Compile Include="Assets\Pakages\polyperfect\- Scripts\AnimationControl.cs" />
      <Compile Include="Assets\Sources\Finish\Finish.cs" />
+     <Compile Include="Assets\Sources\Model\Obstacle.cs" />
+     <Compile Include="Assets\Sources\UI\FinishUI.cs" />
      <Compile Include="Assets\Sources\SpawnPoint.cs" />
      <Compile Include="Assets\Pakages\polyperfect\- Scripts\AIScripts\IdleState.cs" />
      <Compile Include="Assets\Scenes\Typed\Main.cs" />
@@ -104,7 +106,6 @@
      <Compile Include="Assets\Pakages\polyperfect\- Scripts\AIScripts\AIStats.cs" />
      <Compile Include="Assets\Sources\Model\Player\PlayerMovement.cs" />
      <Compile Include="Assets\Pakages\polyperfect\- Scripts\AIScripts\WanderManager.cs" />
-     <Compile Include="Assets\Sources\UI\FinishUI.cs" />
      <Folder Include="Assets" />
      <Folder Include="Assets\Pakages\Epic Toon FX\Prefabs\Environment\Water\Other" />
      <Folder Include="Assets\Pakages\Epic Toon FX\Sound" />

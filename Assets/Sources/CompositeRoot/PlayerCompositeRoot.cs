@@ -1,6 +1,4 @@
-﻿using System;
-using Sources.Input;
-using Sources.Model;
+﻿using Sources.Input;
 using Sources.Model.Player;
 using Sources.UI;
 using Sources.View;
@@ -17,20 +15,14 @@ namespace Sources.CompositeRoot
         [SerializeField] private FinishUI _finishUI;
 
         private Player _player;
-        private PlayerMovement _playerMovement;
-        private PlayerInputRouter _playerInputRouter;
         private PlayerAnimation _playerAnimation;
+        private PlayerInputRouter _playerInputRouter;
+        private PlayerMovement _playerMovement;
 
-        public override void Compose()
+        private void Update()
         {
-            _player = new Player(_defaultPlayerPosition, Quaternion.identity);
-            _playerMovement = new PlayerMovement(_player);
-            _playerInputRouter = new PlayerInputRouter(_playerMovement);
-            _playerAnimation = new PlayerAnimation(_animator, _player);
-            
-            _physicsEventBroadcaster.Init(_player);
-            _playerTransformableView.Init(_player);
-            _finishUI.Init(_player);
+            _playerInputRouter.Update();
+            _playerMovement.Tick(Time.deltaTime);
         }
 
         private void OnEnable()
@@ -45,10 +37,16 @@ namespace Sources.CompositeRoot
             _playerAnimation.OnDisable();
         }
 
-        private void Update()
+        public override void Compose()
         {
-            _playerInputRouter.Update();
-            _playerMovement.Tick(Time.deltaTime);
+            _player = new Player(_defaultPlayerPosition, Quaternion.identity);
+            _playerMovement = new PlayerMovement(_player);
+            _playerInputRouter = new PlayerInputRouter(_playerMovement);
+            _playerAnimation = new PlayerAnimation(_animator, _player);
+
+            _physicsEventBroadcaster.Init(_player);
+            _playerTransformableView.Init(_player);
+            _finishUI.Init(_player);
         }
     }
 }

@@ -4,12 +4,12 @@ namespace Sources.Model.Player
 {
     public class PlayerAnimation
     {
-        private readonly Animator _animator;
-        private readonly Player _player;
         private static readonly int IsRunning = Animator.StringToHash("isRunning");
 
         public static bool FinishAnimationCompleted;
-        
+        private readonly Animator _animator;
+        private readonly Player _player;
+
         public PlayerAnimation(Animator animator, Player player)
         {
             _animator = animator;
@@ -30,10 +30,7 @@ namespace Sources.Model.Player
 
         private void OnChangedStateOfMovement(StateOfMovement state)
         {
-            if (state is StateOfMovement.RunningForward)
-            {
-                _animator.SetBool(IsRunning, true);
-            }
+            if (state is StateOfMovement.RunningForward) _animator.SetBool(IsRunning, true);
         }
 
         private void OnFinished()

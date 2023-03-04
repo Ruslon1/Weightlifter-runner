@@ -1,6 +1,4 @@
-﻿using System;
-using Sources.Model;
-using Sources.Model.Barbell;
+﻿using Sources.Model;
 using UnityEngine;
 
 namespace Sources.View
@@ -9,14 +7,14 @@ namespace Sources.View
     {
         private Transformable _model;
 
-        public void Init(Transformable model)
-        {
-            _model = model;
-        }
-        
         private void OnTriggerEnter(Collider other)
         {
             _model.TriggerEnter(other);
+        }
+
+        public void Init(Transformable model)
+        {
+            _model = model;
         }
     }
 }

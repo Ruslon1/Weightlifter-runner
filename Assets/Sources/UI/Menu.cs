@@ -6,7 +6,7 @@ namespace Sources.UI
     {
         [SerializeField] private Canvas _startCanvas;
         [SerializeField] private Canvas _levelChooseCanvas;
-        
+
         public void EnableLevelChooseCanvas()
         {
             _startCanvas.gameObject.SetActive(false);

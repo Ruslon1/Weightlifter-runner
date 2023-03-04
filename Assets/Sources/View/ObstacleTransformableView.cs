@@ -1,8 +1,6 @@
-﻿using UnityEngine;
-
-namespace Sources.View
+﻿namespace Sources.View
 {
-    public class ObstacleTransformableView : MonoBehaviour
+    public class ObstacleTransformableView : TransformableView
     {
     }
 }

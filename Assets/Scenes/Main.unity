@@ -780,7 +780,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _playerTransformableView: {fileID: 4744231485517993874}
-  _defaultPlayerPosition: {x: 0, y: 0, z: 150}
+  _defaultPlayerPosition: {x: 0, y: 0, z: 0}
   _animator: {fileID: 3373392940087458786}
   _physicsEventBroadcaster: {fileID: 4744231485517993875}
   _finishUI: {fileID: 229054622}
@@ -834,7 +834,7 @@ MonoBehaviour:
   - {fileID: 4097184539619884422, guid: c3687505f89923b44a29323d17912679, type: 3}
   - {fileID: -8605846912778345583, guid: 1e1a9e3eb52136f4698e9d2afdfcf34c, type: 3}
   - {fileID: 3877833872451313797, guid: 5841b37a0bcb6164bb0b2700e9d70ee6, type: 3}
-  - {fileID: -6202169981741258675, guid: b57aa3c298740854ca475cbca5d0db4a, type: 3}
+  - {fileID: 1835412188951473820, guid: c49c4288db73767489a5a3b0cdb29bbf, type: 3}
   _playerTransformableView: {fileID: 4744231485517993874}
   _barbell: {fileID: 4892888277986069347}
 --- !u!1 &1890257507
@@ -914,14 +914,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1890257507}
-  m_LocalRotation: {x: 0.06495639, y: -0, z: -0, w: 0.9978881}
-  m_LocalPosition: {x: 0, y: 2.07, z: -3.52}
+  m_LocalRotation: {x: 0.084286526, y: 0, z: 0, w: 0.9964416}
+  m_LocalPosition: {x: 0, y: 2.56, z: -4.26}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 7.449, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 9.67, y: 0, z: 0}
 --- !u!114 &1890257511
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -935,7 +935,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _playerView: {fileID: 4744231485517993874}
-  _offset: {x: 0, y: 2.07, z: -3.52}
+  _offset: {x: 0, y: 2.56, z: -4.26}
 --- !u!1 &2113767198
 GameObject:
   m_ObjectHideFlags: 0
@@ -1019,7 +1019,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 229054622}
         m_TargetAssemblyTypeName: Sources.UI.FinishUI, Assembly-CSharp
         m_MethodName: LoadNextLevel
         m_Mode: 1

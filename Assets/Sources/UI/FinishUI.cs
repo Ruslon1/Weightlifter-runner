@@ -1,5 +1,4 @@
-﻿using System;
-using System.Collections;
+﻿using System.Collections;
 using Sources.Model.Player;
 using UnityEngine;
 
@@ -10,18 +9,18 @@ namespace Sources.UI
         [SerializeField] private Canvas _finishCanvas;
         [SerializeField] private GameLoader _gameLoader;
         [SerializeField] private SceneLoadRouter _sceneLoadRouter;
-        
+
         private Player _player;
+
+        private void OnDisable()
+        {
+            _player.Finished -= OnFinished;
+        }
 
         public void Init(Player player)
         {
             _player = player;
             _player.Finished += OnFinished;
-        }
-
-        private void OnDisable()
-        {
-            _player.Finished -= OnFinished;
         }
 
         public void LoadNextLevel()

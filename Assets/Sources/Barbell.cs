@@ -9,15 +9,26 @@ namespace Sources
     {
         [SerializeField] private List<SpawnPoint> _barbellDiskPoints;
 
-        private readonly Dictionary<int, BarbellDisk> _barbellDisks = new();
+        private readonly Queue<BarbellDisk> _barbellDisks = new();
 
         public SpawnPoint GetSpawnPointForNewDisk(BarbellDisk model)
         {
             if (_barbellDiskPoints.Count < _barbellDisks.Count + 1)
                 throw new InvalidOperationException("Barbell disk count raised its maximum value");
-            
-            _barbellDisks.Add(_barbellDisks.Count + 1, model);
+
+            _barbellDisks.Enqueue(model);
             return _barbellDiskPoints[_barbellDisks.Count - 1];
+        }
+
+        public void LoseHalfOfDisks()
+        {
+            var halfAmountOfBarbellDisks = _barbellDisks.Count / 2;
+
+            for (var i = 0; i < halfAmountOfBarbellDisks; i++)
+            {
+                var disk = _barbellDisks.Dequeue();
+                disk.LoseDisk();
+            }
         }
     }
 }

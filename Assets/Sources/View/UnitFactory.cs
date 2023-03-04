@@ -1,5 +1,4 @@
 ﻿using System.Collections.Generic;
-using Sources.Model;
 using UnityEngine;
 
 namespace Sources.View
@@ -20,10 +19,8 @@ namespace Sources.View
             var parity = Random.Range(1, 2);
             var items = new List<TransformableView>();
 
-            for (int i = 0; i < _spawnPoints.Length; i += parity)
-            {
+            for (var i = 0; i < _spawnPoints.Length; i += parity)
                 items.Add(Object.Instantiate(_units[Random.Range(0, _units.Count)], _spawnPoints[i].transform));
-            }
 
             return items;
         }

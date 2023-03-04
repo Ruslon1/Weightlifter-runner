@@ -4,8 +4,8 @@ namespace Sources.Model.Player
 {
     public class PlayerMovement
     {
-        private readonly Player _player;
         private const float Speed = 2;
+        private readonly Player _player;
 
         public PlayerMovement(Player player)
         {
@@ -21,7 +21,7 @@ namespace Sources.Model.Player
 
         public void Tick(float delta)
         {
-            float targetZ = _player.Position.z + Speed * delta;
+            var targetZ = _player.Position.z + Speed * delta;
             _player.MoveForward(targetZ);
         }
     }

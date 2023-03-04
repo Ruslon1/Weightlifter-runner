@@ -3,7 +3,7 @@ using UnityEngine;
 
 namespace Sources.CompositeRoot
 {
-    class CompositionOrder : MonoBehaviour
+    internal class CompositionOrder : MonoBehaviour
     {
         [SerializeField] private List<CompositeRoot> _compositions;
 
