@@ -106,6 +106,7 @@
      <Compile Include="Assets\Pakages\polyperfect\- Scripts\AIScripts\AIStats.cs" />
      <Compile Include="Assets\Sources\Model\Player\PlayerMovement.cs" />
      <Compile Include="Assets\Pakages\polyperfect\- Scripts\AIScripts\WanderManager.cs" />
+     <Compile Include="Assets\Sources\UI\GameUI.cs" />
      <Folder Include="Assets" />
      <Folder Include="Assets\Pakages\Epic Toon FX\Prefabs\Environment\Water\Other" />
      <Folder Include="Assets\Pakages\Epic Toon FX\Sound" />
