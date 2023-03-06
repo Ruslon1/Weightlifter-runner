@@ -1091,13 +1091,13 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1564577622}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
+      - m_Target: {fileID: 765522764}
+        m_TargetAssemblyTypeName: GameUI, Assembly-CSharp
+        m_MethodName: Pause
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -1901,6 +1901,46 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 7540361500485132603, guid: 2b437f78c0a51ea41b07805c1c15049d, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.02427
+      objectReference: {fileID: 0}
+    - target: {fileID: 7540361500635693245, guid: 2b437f78c0a51ea41b07805c1c15049d, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.0308
+      objectReference: {fileID: 0}
+    - target: {fileID: 7540361500809990852, guid: 2b437f78c0a51ea41b07805c1c15049d, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.02715
+      objectReference: {fileID: 0}
+    - target: {fileID: 7540361500923262052, guid: 2b437f78c0a51ea41b07805c1c15049d, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.0331
+      objectReference: {fileID: 0}
+    - target: {fileID: 7540361500924814752, guid: 2b437f78c0a51ea41b07805c1c15049d, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.02869
+      objectReference: {fileID: 0}
+    - target: {fileID: 7540361501563571602, guid: 2b437f78c0a51ea41b07805c1c15049d, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.0243
+      objectReference: {fileID: 0}
+    - target: {fileID: 7540361501637674671, guid: 2b437f78c0a51ea41b07805c1c15049d, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.0265
+      objectReference: {fileID: 0}
+    - target: {fileID: 7540361501889021702, guid: 2b437f78c0a51ea41b07805c1c15049d, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.02847
+      objectReference: {fileID: 0}
+    - target: {fileID: 7540361501950895528, guid: 2b437f78c0a51ea41b07805c1c15049d, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.0307
+      objectReference: {fileID: 0}
+    - target: {fileID: 7540361502319326937, guid: 2b437f78c0a51ea41b07805c1c15049d, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.02547
+      objectReference: {fileID: 0}
     - target: {fileID: 7680146190219434280, guid: 2b437f78c0a51ea41b07805c1c15049d, type: 3}
       propertyPath: m_RootOrder
       value: 3

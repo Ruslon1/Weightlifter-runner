@@ -38,6 +38,7 @@ namespace Sources.Model.Barbell
         {
             _onBarbell = false;
             _rigidbody.isKinematic = false;
+            _instance.transform.parent = null;
             Explosion?.Invoke();
         }
 
@@ -54,6 +55,7 @@ namespace Sources.Model.Barbell
                 return;
             }
 
+            _instance.transform.parent = _spawnPoint.transform;
             _onBarbell = true;
         }
 

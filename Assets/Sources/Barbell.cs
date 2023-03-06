@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using Sources.Model.Barbell;
+using Sources.View;
 using UnityEngine;
 
 namespace Sources
@@ -15,9 +16,9 @@ namespace Sources
         {
             if (_barbellDiskPoints.Count < _barbellDisks.Count + 1)
                 throw new InvalidOperationException("Barbell disk count raised its maximum value");
-
+            
             _barbellDisks.Enqueue(model);
-            return _barbellDiskPoints[_barbellDisks.Count - 1];
+            return GetFreeSpawnPoint();
         }
 
         public void LoseHalfOfDisks()
@@ -29,6 +30,17 @@ namespace Sources
                 var disk = _barbellDisks.Dequeue();
                 disk.LoseDisk();
             }
+        }
+
+        private SpawnPoint GetFreeSpawnPoint()
+        {
+            foreach (var point in _barbellDiskPoints)
+            {
+                if (point.GetComponentInChildren<BarbellDiskTransformableView>() is null)
+                    return point;
+            }
+
+            return null;
         }
     }
 }
