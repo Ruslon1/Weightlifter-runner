@@ -21,6 +21,11 @@ namespace Sources.Model.Player
 
         public void Tick(float delta)
         {
+            Ray ray = new Ray(new Vector3(Position.x, Position.y + 1, Position.z), Vector3.down);
+            
+            if (Physics.Raycast(ray, 10) == false)
+                _player.FallDown();
+                
             var targetZ = _player.Position.z + Speed * delta;
             _player.MoveForward(targetZ);
         }

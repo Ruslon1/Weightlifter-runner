@@ -12,12 +12,26 @@ namespace Sources.CompositeRoot
         [SerializeField] private Vector3 _defaultPlayerPosition;
         [SerializeField] private Animator _animator;
         [SerializeField] private PhysicsEventBroadcaster _physicsEventBroadcaster;
+        [SerializeField] private GameUI _gameUI;
         [SerializeField] private FinishUI _finishUI;
+        [SerializeField] private Rigidbody _playerRigidbody;
 
         private Player _player;
         private PlayerAnimation _playerAnimation;
         private PlayerInputRouter _playerInputRouter;
         private PlayerMovement _playerMovement;
+        public override void Compose()
+        {
+            _player = new Player(_defaultPlayerPosition, Quaternion.identity, _playerRigidbody);
+            _playerMovement = new PlayerMovement(_player);
+            _playerInputRouter = new PlayerInputRouter(_playerMovement);
+            _playerAnimation = new PlayerAnimation(_animator, _player);
+
+            _physicsEventBroadcaster.Init(_player);
+            _playerTransformableView.Init(_player);
+            _finishUI.Init(_player);
+            _gameUI.Init(_player);
+        }
 
         private void Update()
         {
@@ -37,16 +51,5 @@ namespace Sources.CompositeRoot
             _playerAnimation.OnDisable();
         }
 
-        public override void Compose()
-        {
-            _player = new Player(_defaultPlayerPosition, Quaternion.identity);
-            _playerMovement = new PlayerMovement(_player);
-            _playerInputRouter = new PlayerInputRouter(_playerMovement);
-            _playerAnimation = new PlayerAnimation(_animator, _player);
-
-            _physicsEventBroadcaster.Init(_player);
-            _playerTransformableView.Init(_player);
-            _finishUI.Init(_player);
-        }
     }
 }

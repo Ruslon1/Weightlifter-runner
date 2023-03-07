@@ -11,6 +11,7 @@ namespace Sources.CompositeRoot
         [SerializeField] private List<TransformableView> _unitPrefabs;
         [SerializeField] private PlayerTransformableView _playerTransformableView;
         [SerializeField] private Barbell _barbell;
+        
         private readonly List<BarbellDisk> _barbellDisks = new();
 
         private Level _level;
