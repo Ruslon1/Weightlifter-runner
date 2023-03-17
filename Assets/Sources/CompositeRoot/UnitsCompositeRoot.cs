@@ -18,9 +18,9 @@ namespace Sources.CompositeRoot
         private IFactory _unitFactory;
         private List<TransformableView> _units;
 
-        private void Update()
+        private void LateUpdate()
         {
-            _barbellDisks.ForEach(ctx => ctx.Update());
+            _barbellDisks.ForEach(ctx => ctx.LateUpdate());
         }
 
         public override void Compose()

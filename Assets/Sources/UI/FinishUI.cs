@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using Sources.Model.Player;
 using UnityEngine;
 
@@ -25,7 +26,14 @@ namespace Sources.UI
 
         public void LoadNextLevel()
         {
-            _sceneLoadRouter.LoadGame(_gameLoader.CurrentLevelIndex + 1);
+            try
+            {
+                _sceneLoadRouter.LoadGame(_gameLoader.CurrentLevelIndex + 1);
+            }
+            catch (Exception e)
+            {
+                IJunior.TypedScenes.Menu.Load();
+            }
         }
 
         private void OnFinished()

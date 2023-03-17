@@ -29,7 +29,7 @@ namespace Sources.Model.Barbell
             if (collider.gameObject.CompareTag(nameof(Player.Player))) AddDiskToBarbell();
         }
 
-        public void Update()
+        public void LateUpdate()
         {
             if (_onBarbell) Position = _spawnPoint.transform.position;
         }

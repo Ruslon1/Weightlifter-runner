@@ -31,10 +31,11 @@ namespace Sources.Model.Player
         private void OnChangedStateOfMovement(StateOfMovement state)
         {
             if (state is StateOfMovement.RunningForward) _animator.SetBool(IsRunning, true);
+            if (state is StateOfMovement.Idle) _animator.SetBool(IsRunning, false);
         }
 
         private void OnFinished()
-        {
+        { 
             _animator.SetBool(IsRunning, false);
             _animator.SetBool("isPunching_Right", true);
             _animator.SetTrigger("Finishing");

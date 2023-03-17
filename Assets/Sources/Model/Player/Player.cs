@@ -47,9 +47,11 @@ namespace Sources.Model.Player
         {
             if (other.TryGetComponent(out Finish.Finish finish))
                 Finished?.Invoke();
+            if (other.TryGetComponent(out RedZone redZone))
+                FallDown();
         }
 
-        public void FallDown()
+        private void FallDown()
         {
             Falling?.Invoke();
             _canMove = false;
