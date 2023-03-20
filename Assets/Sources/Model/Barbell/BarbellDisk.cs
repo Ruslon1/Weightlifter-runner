@@ -10,7 +10,6 @@ namespace Sources.Model.Barbell
         private readonly Transformable _player;
         private readonly Rigidbody _rigidbody;
         private bool _onBarbell;
-        private SpawnPoint _spawnPoint;
 
         public BarbellDisk(Quaternion rotation, Vector3 position, Transformable player, Sources.Barbell barbell,
             GameObject instance)
@@ -22,6 +21,8 @@ namespace Sources.Model.Barbell
             _rigidbody = _instance.GetComponent<Rigidbody>();
         }
 
+        public SpawnPoint SpawnPoint { get; private set; }
+
         public event Action Explosion;
 
         public override void TriggerEnter(Collider collider)
@@ -31,7 +32,11 @@ namespace Sources.Model.Barbell
 
         public void LateUpdate()
         {
-            if (_onBarbell) Position = _spawnPoint.transform.position;
+            if (_onBarbell)
+            {
+                Position = SpawnPoint.transform.position;
+                Rotation = SpawnPoint.transform.rotation;
+            }
         }
 
         public void LoseDisk()
@@ -46,7 +51,7 @@ namespace Sources.Model.Barbell
         {
             try
             {
-                _spawnPoint = _barbell.GetSpawnPointForNewDisk(this);
+                SpawnPoint = _barbell.GetSpawnPointForNewDisk(this);
             }
             catch (Exception e)
             {
@@ -55,7 +60,7 @@ namespace Sources.Model.Barbell
                 return;
             }
 
-            _instance.transform.parent = _spawnPoint.transform;
+            _instance.transform.parent = SpawnPoint.transform;
             _onBarbell = true;
         }
 

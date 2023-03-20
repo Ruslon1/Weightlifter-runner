@@ -2142,6 +2142,7 @@ MonoBehaviour:
   _gameUI: {fileID: 765522764}
   _finishUI: {fileID: 229054622}
   _playerRigidbody: {fileID: 4744231485517993877}
+  _barbell: {fileID: 4892888277986069347}
 --- !u!114 &1800743925
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2708,6 +2709,10 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7540361500485132600, guid: 2b437f78c0a51ea41b07805c1c15049d, type: 3}
+      propertyPath: _side
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7540361500485132602, guid: 2b437f78c0a51ea41b07805c1c15049d, type: 3}
       propertyPath: m_Icon
       value: 
@@ -2719,6 +2724,10 @@ PrefabInstance:
     - target: {fileID: 7540361500485132603, guid: 2b437f78c0a51ea41b07805c1c15049d, type: 3}
       propertyPath: m_LocalPosition.x
       value: -0.02427
+      objectReference: {fileID: 0}
+    - target: {fileID: 7540361500635693242, guid: 2b437f78c0a51ea41b07805c1c15049d, type: 3}
+      propertyPath: _side
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7540361500635693244, guid: 2b437f78c0a51ea41b07805c1c15049d, type: 3}
       propertyPath: m_Icon
@@ -2756,6 +2765,10 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7540361500923262055, guid: 2b437f78c0a51ea41b07805c1c15049d, type: 3}
+      propertyPath: _side
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7540361500924814752, guid: 2b437f78c0a51ea41b07805c1c15049d, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0.03048
@@ -2780,6 +2793,10 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7540361501637674668, guid: 2b437f78c0a51ea41b07805c1c15049d, type: 3}
+      propertyPath: _side
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7540361501637674670, guid: 2b437f78c0a51ea41b07805c1c15049d, type: 3}
       propertyPath: m_Icon
       value: 
@@ -2795,6 +2812,10 @@ PrefabInstance:
     - target: {fileID: 7540361501889021702, guid: 2b437f78c0a51ea41b07805c1c15049d, type: 3}
       propertyPath: m_LocalPosition.x
       value: -0.0303
+      objectReference: {fileID: 0}
+    - target: {fileID: 7540361501889021703, guid: 2b437f78c0a51ea41b07805c1c15049d, type: 3}
+      propertyPath: _side
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7540361501889021721, guid: 2b437f78c0a51ea41b07805c1c15049d, type: 3}
       propertyPath: m_Icon

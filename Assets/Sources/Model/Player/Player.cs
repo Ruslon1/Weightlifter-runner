@@ -5,14 +5,14 @@ namespace Sources.Model.Player
 {
     public class Player : Transformable
     {
+        private readonly Rigidbody _rigidbody;
         private readonly StateOfMovement _stateOfMovement = StateOfMovement.Idle;
         private bool _canMove = true;
-        private Rigidbody _rigidbody;
 
         public Player(Vector3 position, Quaternion rotation, Rigidbody rigidbody) : base(rotation, position)
         {
             _rigidbody = rigidbody;
-            
+
             Finished += OnFinish;
         }
 
@@ -49,6 +49,11 @@ namespace Sources.Model.Player
                 Finished?.Invoke();
             if (other.TryGetComponent(out RedZone redZone))
                 FallDown();
+        }
+
+        public void Roll(float value)
+        {
+            Rotation = Quaternion.Euler(Rotation.x, Rotation.y, value);
         }
 
         private void FallDown()

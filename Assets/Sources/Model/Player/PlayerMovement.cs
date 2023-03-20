@@ -4,7 +4,7 @@ namespace Sources.Model.Player
 {
     public class PlayerMovement
     {
-        private const float Speed = 5;
+        private const float Speed = 8;
         private readonly Player _player;
 
         public PlayerMovement(Player player)

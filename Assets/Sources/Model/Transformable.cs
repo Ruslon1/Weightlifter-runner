@@ -11,7 +11,7 @@ namespace Sources.Model
         }
 
         public virtual Vector3 Position { get; protected set; }
-        public Quaternion Rotation { get; }
+        public Quaternion Rotation { get; protected set; }
 
         public virtual void TriggerEnter(Collider other)
         {

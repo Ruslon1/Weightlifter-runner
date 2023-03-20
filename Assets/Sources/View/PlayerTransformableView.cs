@@ -19,9 +19,9 @@ namespace Sources.View
 
         private void Move()
         {
-            if(_rigidbody.isKinematic == false)
+            if (_rigidbody.isKinematic == false)
                 return;
-            
+
             transform.position = Model.Position;
             transform.rotation = Model.Rotation;
         }

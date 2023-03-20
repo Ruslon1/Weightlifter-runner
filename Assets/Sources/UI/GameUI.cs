@@ -1,4 +1,3 @@
-using System;
 using IJunior.TypedScenes;
 using Sources;
 using Sources.Model.Player;
@@ -14,15 +13,15 @@ public class GameUI : MonoBehaviour
 
     private Player _player;
 
+    private void OnDisable()
+    {
+        _player.Falling -= ShowLosingUI;
+    }
+
     public void Init(Player player)
     {
         _player = player;
         _player.Falling += ShowLosingUI;
-    }
-
-    private void OnDisable()
-    {
-        _player.Falling -= ShowLosingUI;
     }
 
     public void Pause()

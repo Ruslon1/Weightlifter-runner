@@ -35,7 +35,7 @@ namespace Sources.Model.Player
         }
 
         private void OnFinished()
-        { 
+        {
             _animator.SetBool(IsRunning, false);
             _animator.SetBool("isPunching_Right", true);
             _animator.SetTrigger("Finishing");
